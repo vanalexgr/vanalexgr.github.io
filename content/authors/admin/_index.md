@@ -105,8 +105,8 @@ work:
 skills:
   - name: Κλινικές Δεξιότητες
     items:
-      - name: Ενδαγγειακές επεμβάσεις (EVAR, TEVAR)
-        percent: 90
+      - name: Ενδαγγειακες επεμβάσεις (EVAR, TEVAR)
+        number: 90
         icon: scalpel
       - name: Καρωτιδική ενδαρτηρεκτομή
         percent: 85
