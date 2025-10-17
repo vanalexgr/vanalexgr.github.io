@@ -5,13 +5,13 @@ first_name: Ευάγγελος
 last_name: Αλεξίου
 pronouns: ''
 status:
-  icon: 🩺
+  icon: ⚕️
 superuser: true
-highlight_name: true
-role: Επιμελητής Α' Αγγειοχειρουργός, ΠΓΝ Ιωαννίνων
+highlight_name: false
+role: Αγγειοχειρουργός
 
 organizations:
-  - name: ΠΓΝ Ιωαννίνων – Αγγειοχειρουργική Κλινική
+  - name: ΠΓΝ Ιωαννίνων
     url: https://www.uhi.gr/
   - name: Ιδιωτικό Ιατρείο Αγρινίου
     url: 'https://vascularized.gr/'
@@ -24,7 +24,7 @@ profiles:
     url: https://orcid.org/0000-0003-1388-4880
   - icon: academicons/scopus
     url: https://www.scopus.com/authid/detail.uri?authorId=18433424100
-  - icon: globe
+  - icon: academicons/archive
     url: https://www.vascularsociety.gr/user/vanalex
 
 interests:
@@ -36,21 +36,21 @@ interests:
   - Σύνθετα ανευρύσματα αορτής (BEVAR, FEVAR, CERAB, chimney)
     
 education:
-  - area: Διδακτορικό στις Χειρουργικές Λοιμώξεις
+  - area: PhD Διδακτορική διατριβή
     institution: Ιατρική Σχολή Πανεπιστημίου Κρήτης
     date_start: 2009-01-01
     date_end: 2013-01-31
     summary: |
       Θέμα: «Παράγοντες κινδύνου για λοιμώξεις από πολυανθεκτικά Gram αρνητικά βακτήρια σε χειρουργημένους ασθενείς που νοσηλεύονται στη μονάδα εντατικής θεραπείας».
 
-  - area: MSc "Ενδαγγειακές Τεχνικές"
+  - area: MSc Ενδαγγειακές Τεχνικές
     institution: Ιατρική Σχολή ΕΚΠΑ σε συνεργασία με Πανεπιστήμιο του Milano - Bicocca
     date_start: 2014-10-01
     date_end: 2016-07-22
     summary: |
       Πτυχιακή: «Ενδαγγειακή αποκατάσταση μυκωτικών ψευδοανευρυσμάτων του λαγονομηριαίου άξονα». Επιβλέπων: Γ. Γερουλάκος
 
-  - area: MSc "Μονάδες Εντατικής Θεραπείας - Καρδιολογική Νοσηλευτική"
+  - area: MSc Μονάδες Εντατικής Θεραπείας
     institution: Ιατρική Σχολή ΕΚΠΑ
     date_start: 2007-01-01
     date_end: 2009-11-03
@@ -106,9 +106,9 @@ skills:
   - name: Κλινικές Δεξιότητες
     items:
       - name: Ενδαγγειακες επεμβάσεις (EVAR, TEVAR)
-        number: 90
+        percent: 90
         icon: scalpel
-      - name: Καρωτιδική ενδαρτηρεκτομή
+      - name: Καρωτιδικη ενδαρτηρεκτομη
         percent: 85
         icon: heart-pulse
       - name: Επεμβάσεις φλεβικής ανεπάρκειας (laser κιρσοί)
