@@ -1,169 +1,134 @@
 ---
-# Display name
-title: Alex Johnson
-
-# Name pronunciation (optional)
+title: Ευάγγελος Αλεξίου
 name_pronunciation: ''
-
-# Full name (for SEO)
-first_name: Alex
-last_name: Johnson
-
-# Pronouns (optional)
-pronouns: he/him
-
-# Status emoji
+first_name: Ευάγγελος
+last_name: Αλεξίου
+pronouns: ''
 status:
-  icon: 🚀
-
-# Is this the primary user of the site?
+  icon: 🩺
 superuser: true
-
-# Highlight the author in author lists? (true/false)
 highlight_name: true
+role: Επιμελητής Α' Αγγειοχειρουργός, ΠΓΝ Ιωαννίνων
 
-# Role/position/tagline
-role: Senior AI Research Scientist
-
-# Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: ΠΓΝ Ιωαννίνων – Αγγειοχειρουργική Κλινική
+    url: https://www.uhi.gr/
+  - name: Ιδιωτικό Ιατρείο Αγρινίου
+    url: 'https://vascularized.gr/'
 
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
-  - icon: brands/github
-    url: https://github.com/alexjohnsonai
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: 'mailto:v.alexiou@aibs.gr'
+    label: Email
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0003-1388-4880
+  - icon: academicons/scopus
+    url: https://www.scopus.com/authid/detail.uri?authorId=18433424100
+  - icon: globe
+    url: https://www.vascularsociety.gr/user/vanalex
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
+  - Ενδαγγειακή Χειρουργική Αορτής - EVAR
+  - Καρωτίδικη νόσος - ενδαρτηρεκτομή
+  - Φλεβική Χειρουργική - λέιζερ, σκληροθεραπεία, RFA
+  - Αγγειακή προσπέλαση αιμοκάθαρσης
+  - Περιφερική αρτηριακή νόσος & διαβητικό πόδι
+  - Σύνθετα ανευρύσματα αορτής (BEVAR, FEVAR, CERAB, chimney)
+    
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: Διδακτορικό στις Χειρουργικές Λοιμώξεις
+    institution: Ιατρική Σχολή Πανεπιστημίου Κρήτης
+    date_start: 2009-01-01
+    date_end: 2013-01-31
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
+      Θέμα: «Παράγοντες κινδύνου για λοιμώξεις από πολυανθεκτικά Gram αρνητικά βακτήρια σε χειρουργημένους ασθενείς που νοσηλεύονται στη μονάδα εντατικής θεραπείας».
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+  - area: MSc "Ενδαγγειακές Τεχνικές"
+    institution: Ιατρική Σχολή ΕΚΠΑ σε συνεργασία με Πανεπιστήμιο του Milano - Bicocca
+    date_start: 2014-10-01
+    date_end: 2016-07-22
     summary: |
-      GPA: 3.9/4.0
+      Πτυχιακή: «Ενδαγγειακή αποκατάσταση μυκωτικών ψευδοανευρυσμάτων του λαγονομηριαίου άξονα». Επιβλέπων: Γ. Γερουλάκος
 
-      Minored in Mathematics. President of AI Club.
+  - area: MSc "Μονάδες Εντατικής Θεραπείας - Καρδιολογική Νοσηλευτική"
+    institution: Ιατρική Σχολή ΕΚΠΑ
+    date_start: 2007-01-01
+    date_end: 2009-11-03
+    summary: |
+      Πτυχιακή: «Ρόλος της κολιστίνης στη θεραπεία Gram(-) λοιμώξεων σε ασθενείς νοσηλευόμενους στη ΜΕΘ». Επιβλέπων: Κ. Τσιούφης
+
+  - area: Πτυχίο Ιατρικής
+    institution: Ιατρική Σχολή Πανεπιστημίου Αθηνών
+    date_start: 1999-09-01
+    date_end: 2005-11-30
+    summary: |
+      Εισαγωγή με Πανελλαδικές από 1ο ΓΕΛ Αγρινίου
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    company_logo: ''
-    date_start: 2020-01-01
+  - position: Επιμελητής Α΄ Αγγειοχειρουργός
+    company_name: ΠΓΝ Ιωαννίνων
+    date_start: 2024-02-01
     date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+  - position: Επικουρικός Επιμελητής Αγγειοχειρουργικής
+    company_name: ΠΓΝ Ιωαννίνων
+    date_start: 2019-05-01
+    date_end: 2024-01-31
+  - position: Ειδικευόμενος Αγγειοχειρουργικής
+    company_name: ΠΓΝ «Αττικόν»
+    date_start: 2015-01-01
+    date_end: 2019-05-01
+  - position: SpR in General Surgery (UK)
+    company_name: Medacs Healthcare, NHS UK
+    date_start: 2012-09-01
+    date_end: 2014-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Εργασία σε 13 νοσοκομεία NHS ως SpR: Royal United, PRU, Taunton & Somerset, Newham, King George, Medway, Broomfield, Northwick Park, Plymouth, Leicester General, Aintree University
+  - position: Core Surgical Training Year 2 (CST2)
+    company_name: Kettering General Hospital, UK
+    date_start: 2012-02-01
+    date_end: 2012-07-31
+  - position: Core Surgical Training Year 1 (CST1)
+    company_name: Leicester General / Northampton General, UK
+    date_start: 2010-08-04
+    date_end: 2011-07-31
+  - position: SHO in General Surgery (HpB)
+    company_name: Leicester General Hospital, UK
+    date_start: 2011-08-03
+    date_end: 2012-01-31
+  - position: Ειδικευόμενος Γενικής Χειρουργικής
+    company_name: ΓΝ Διδυμοτείχου
+    date_start: 2008-09-03
+    date_end: 2010-03-07
+  - position: Εκπαιδευόμενος Ερευνητής (Research Fellow)
+    company_name: Άλφα Ινστιτούτο Βιοϊατρικών Επιστημών
+    date_start: 2006-09-01
+    date_end: 2008-10-31
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Κλινικές Δεξιότητες
     items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
+      - name: Ενδαγγειακές επεμβάσεις (EVAR, TEVAR)
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
-        icon: book-open
+        icon: scalpel
+      - name: Καρωτιδική ενδαρτηρεκτομή
+        percent: 85
+        icon: heart-pulse
+      - name: Επεμβάσεις φλεβικής ανεπάρκειας (Επέμβαση κιρσών με laser)
+        percent: 85
+        icon: waveform
+      - name: Αγγειακή προσπέλαση για αιμοκάθαρση
+        percent: 80
+        icon: plug
 
 languages:
-  - name: English
+  - name: Ελληνικά
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Αγγλικά (Proficiency)
+    percent: 100
+  - name: Γαλλικά (Sorbοnne II)
+    percent: 100
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+Ο Ευάγγελος Αλεξίου είναι Επιμελητής Α΄ Αγγειοχειρουργός στο Πανεπιστημιακό Γενικό Νοσοκομείο Ιωαννίνων και διατηρεί ιδιωτικό ιατρείο στο Αγρίνιο. Έχει Διδακτορικό στις Χειρουργικές Λοιμώξεις, δύο μεταπτυχιακούς τίτλους και πολυετή εμπειρία στην Ελλάδα και το NHS Αγγλίας. Εξειδικεύεται στην ενδαγγειακή και συμβατική αγγειοχειρουργική, ιδιαίτερα σε επεμβάσεις αορτής, καρωτίδων και φλεβών. Έχει πλούσια ερευνητική του δραστηριότητα και είναι Ταμίας της Ελληνικής Εταιρείας Αγγειακής και Ενδαγγειακής Χειρουργικής.
 ---
 
 Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
