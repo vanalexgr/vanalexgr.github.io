@@ -81,7 +81,8 @@ work:
     company_name: Medacs Healthcare, NHS UK
     date_start: 2012-09-01
     date_end: 2014-12-31
-    summary: |Royal United, PRU, Taunton & Somerset, Newham, King George, Medway, Broomfield, Northwick Park, Plymouth, Leicester General, Aintree University
+    summary: |
+    Royal United, PRU, Taunton & Somerset, Newham, King George, Medway, Broomfield, Northwick Park, Plymouth, Leicester General, Aintree University
   - position: Core Surgical Training Year 2 (CST2)
     company_name: Kettering General Hospital, UK
     date_start: 2012-02-01
