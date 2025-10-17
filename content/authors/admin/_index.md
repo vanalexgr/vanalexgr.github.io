@@ -81,8 +81,7 @@ work:
     company_name: Medacs Healthcare, NHS UK
     date_start: 2012-09-01
     date_end: 2014-12-31
-    summary: |
-      Εργασία σε 13 νοσοκομεία NHS ως SpR: Royal United, PRU, Taunton & Somerset, Newham, King George, Medway, Broomfield, Northwick Park, Plymouth, Leicester General, Aintree University
+    summary: |Royal United, PRU, Taunton & Somerset, Newham, King George, Medway, Broomfield, Northwick Park, Plymouth, Leicester General, Aintree University
   - position: Core Surgical Training Year 2 (CST2)
     company_name: Kettering General Hospital, UK
     date_start: 2012-02-01
@@ -99,7 +98,7 @@ work:
     company_name: ΓΝ Διδυμοτείχου
     date_start: 2008-09-03
     date_end: 2010-03-07
-  - position: Εκπαιδευόμενος Ερευνητής (Research Fellow)
+  - position: Research Fellow in Surgical Infections
     company_name: Άλφα Ινστιτούτο Βιοϊατρικών Επιστημών
     date_start: 2006-09-01
     date_end: 2008-10-31
@@ -107,22 +106,20 @@ work:
 skills:
   - name: Κλινικές Δεξιότητες
     items:
-      - name: Ενδαγγειακές επεμβάσεις (EVAR, TEVAR)
-        percent: 90
+      - name: Ενδαγγειακες επεμβασεις (EVAR, TEVAR)
+        number: 90
         icon: scalpel
-      - name: Καρωτιδική ενδαρτηρεκτομή
-        percent: 85
+      - name: Καρωτιδικη ενδαρτηρεκτομη
+        number: 85
         icon: heart-pulse
-      - name: Επεμβάσεις φλεβικής ανεπάρκειας (Επέμβαση κιρσών με laser)
-        percent: 85
+      - name: Επεμβασεις φλεβικης ανεπαρκειας (Επεμβαση κιρσων με laser)
+        number: 120
         icon: waveform
-      - name: Αγγειακή προσπέλαση για αιμοκάθαρση
+      - name: Αγγειακη προσπελαση για αιμοκαθαρση
         percent: 80
         icon: plug
 
 languages:
-  - name: Ελληνικά
-    percent: 100
   - name: Αγγλικά (Proficiency)
     percent: 100
   - name: Γαλλικά (Sorbοnne II)
