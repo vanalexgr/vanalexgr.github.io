@@ -20,7 +20,7 @@ sections:
       title: Δεξιότητες & Ενδιαφέροντα
       username: admin
     design:
-      show_skill_percentage: false # Απόκρυψη ποσοστών δεξιοτήτων
+      show_skill_percentage: true # Απόκρυψη ποσοστών δεξιοτήτων
 
   - block: resume-awards
     content:
