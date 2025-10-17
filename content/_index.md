@@ -15,8 +15,8 @@ sections:
         text: Λήψη Βιογραφικού
         url: uploads/resume.pdf
       headings:
-        about: Σχετικά
-        education: Εκπαίδευση
+        about: Επαγγελματικό προφίλ
+        education: Πτυχία
         interests: Ενδιαφέροντα
     design:
       css_class: hbx-bg-gradient
