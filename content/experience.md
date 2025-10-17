@@ -1,35 +1,34 @@
 ---
-title: 'Experience'
+title: 'Εμπειρία'
 date: 2023-10-24
 type: landing
 
 design:
   spacing: '5rem'
 
-# Note: `username` refers to the user's folder name in `content/authors/`
-
-# Page sections
+# Οι ενότητες της σελίδας
 sections:
   - block: resume-experience
     content:
-      username: admin
+      username: admin # Αναφέρεται στο φάκελο `content/authors/admin/`
     design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: false
+      date_format: 'January 2006' # Μορφή ημερομηνίας που εμφανίζεται στην εμπειρία
+      is_education_first: false # Πρώτα επαγγελματική εμπειρία, μετά εκπαίδευση
+
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: Δεξιότητες & Ενδιαφέροντα
       username: admin
     design:
-      show_skill_percentage: false
+      show_skill_percentage: false # Απόκρυψη ποσοστών δεξιοτήτων
+
   - block: resume-awards
     content:
-      title: Awards
+      title: Διακρίσεις
       username: admin
+
   - block: resume-languages
     content:
-      title: Languages
+      title: Γλώσσες
       username: admin
 ---
