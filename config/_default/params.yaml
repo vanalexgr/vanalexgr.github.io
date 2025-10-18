@@ -12,9 +12,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: Physician
-    org_name: 'Αγγειοχειρουργός Ευάγγελος Αλεξίου – Ιωαννίνα & Αγρίνιο'
-    description: 'Ευάγγελος Αλεξίου, Αγγειοχειρουργός. Επιμελητής Α΄ στο ΠΓΝ Ιωαννίνων και ιδιωτικό ιατρείο στο Αγρίνιο. Εξειδίκευση σε ενδαγγειακές και συμβατικές επεμβάσεις αρτηριών και φλεβών, καρωτίδα, ανευρύσματα αορτής, φλεβική ανεπάρκεια,διαβητικός πόδι, αγγειακή προσπέλαση αιμοκάθαρσης, laser φλεβών.'
-    twitter: ''                      # Βάλε handle αν θες (π.χ. 'vanalex')
+    org_name: 'Αγγειοχειρουργός Ευάγγελος Αλεξίου – Ιωάννινα & Αγρίνιο'
+    description: 'Ευάγγελος Αλεξίου, Αγγειοχειρουργός. Επιμελητής Α΄ στο ΠΓΝ Ιωαννίνων και ιδιωτικό ιατρείο στο Αγρίνιο. Εξειδίκευση σε ενδαγγειακές και συμβατικές επεμβάσεις αρτηριών και φλεβών, καρωτίδα, ανευρύσματα αορτής, φλεβική ανεπάρκεια, διαβητικό πόδι, αγγειακή προσπέλαση αιμοκάθαρσης, laser φλεβών.'
+    twitter: ''                      # Προαιρετικά: π.χ. 'vanalex'
   analytics:
     google_analytics: ''             # π.χ. G-XXXXXXXX
     baidu_tongji: ''
@@ -25,6 +25,7 @@ marketing:
     google: ''                       # Google Search Console token (προαιρετικό)
     baidu: ''
 
+# Site header
 header:
   navbar:
     enable: true
@@ -35,16 +36,17 @@ header:
     logo:
       text: ''                                 # Δεν εμφανίζεται κείμενο
       image: 'uploads/logo.png'                # Διαδρομή εικόνας λογοτύπου
-      alt_text: 'Ευάγγελος Αλεξίου, Αγγειοχειρουργός'   # Εναλλακτικό κείμενο (SEO & accessibility)
+      alt_text: 'Ευάγγελος Αλεξίου, Αγγειοχειρουργός'   # SEO & accessibility
       width: 180                               # Προαιρετικό — μέγεθος σε px
       link_url: '/'                            # Το logo οδηγεί στην αρχική σελίδα
 
+# Site footer
 footer:
-enable: false 
+  enable: false              # 👈 Σωστή εσοχή: κρύβει ολόκληρο το footer (αν υποστηρίζεται)
   copyright:
     notice: '© {year} Ευάγγελος Αλεξίου. This work is licensed under {license}'
     license:
-      enable: true                   # Αν δεν θέλεις άδεια, κάνε false
+      enable: true           # Κάν’ το false για να μη φαίνεται καθόλου γραμμή άδειας
       allow_derivatives: false
       share_alike: false
       allow_commercial: false
@@ -60,4 +62,4 @@ features:
   math:
     enable: false
   privacy_pack:
-    enable: true                    # Κάντο true αν θες cookie consent banner
+    enable: true            # Για banner θα χρειαστεί και config/_default/privacy.yaml
