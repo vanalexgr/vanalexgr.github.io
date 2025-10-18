@@ -24,8 +24,9 @@ profiles:
     url: https://orcid.org/0000-0003-1388-4880
   - icon: academicons/scopus
     url: https://www.scopus.com/authid/detail.uri?authorId=18433424100
-  - icon: academicons/archive
-    url: https://www.vascularsociety.gr/user/vanalex
+  - icon: brands/linkedin
+    url: https://gr.linkedin.com/in/vangelis-alexiou-27b9a432
+    label: LinkedIn
 
 interests:
   - Ενδαγγειακή Χειρουργική Αορτής - EVAR
