@@ -24,7 +24,7 @@ marketing:
   verification:
     google: ''                       # Google Search Console token (προαιρετικό)
     baidu: ''
-    favicon: "/favicon.png"
+    favicon: "/uploads/favicon.png"
 
 # Site header
 header:
@@ -36,7 +36,7 @@ header:
     show_theme_chooser: true   # Βάλε false αν δεν το θες
     logo:
       text: ''                                 # Δεν εμφανίζεται κείμενο
-      image: '/logo.png'                # Διαδρομή εικόνας λογοτύπου
+      image: '/uploads/logo.png'                # Διαδρομή εικόνας λογοτύπου
       alt_text: 'Ευάγγελος Αλεξίου, Αγγειοχειρουργός'   # SEO & accessibility
       width: 180                               # Προαιρετικό — μέγεθος σε px
       link_url: '/'                            # Το logo οδηγεί στην αρχική σελίδα
