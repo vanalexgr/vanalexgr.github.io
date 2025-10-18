@@ -25,23 +25,26 @@ marketing:
     google: ''                       # Google Search Console token (προαιρετικό)
     baidu: ''
 
-# Site header
 header:
   navbar:
     enable: true
     block: 'navbar'
     fixed_to_top: true
     show_search: true
-    show_theme_chooser: true         # Βάλε false αν δεν το θες
+    show_theme_chooser: true   # Βάλε false αν δεν το θες
     logo:
-      text: 'Ε. Αλεξίου, Αγγειοχειρουργός'      # Εμφανιζόμενο λεκτικό στο logo
+      text: ''                                 # Δεν εμφανίζεται κείμενο
+      image: 'uploads/logo.png'                # Διαδρομή εικόνας λογοτύπου
+      alt_text: 'Ευάγγελος Αλεξίου, Αγγειοχειρουργός'   # Εναλλακτικό κείμενο (SEO & accessibility)
+      width: 180                               # Προαιρετικό — μέγεθος σε px
+      link_url: '/'                            # Το logo οδηγεί στην αρχική σελίδα
 
 # Site footer
 footer:
   copyright:
     notice: '© {year} Ευάγγελος Αλεξίου. This work is licensed under {license}'
     license:
-      enable: true                   # Αν δεν θέλεις άδεια, κάνε false
+      enable: false                   # Αν δεν θέλεις άδεια, κάνε false
       allow_derivatives: false
       share_alike: false
       allow_commercial: false
