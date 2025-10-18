@@ -37,7 +37,7 @@ interests:
   - Σύνθετα ανευρύσματα αορτής (BEVAR, FEVAR, CERAB, chimney)
     
 education:
-  - area: Αγγειοχειρουργική Ειδικότητα
+  - area: Aγγειακή και Ενδαγγειακή Χειρουργική
     institution: A' Αγγειοχειρουργική Κλινική Πανεπιστημίου ΑΘηνών και East Midlands South Deanery, UK
     date_start: 2009-01-01
     date_end: 2013-01-31
