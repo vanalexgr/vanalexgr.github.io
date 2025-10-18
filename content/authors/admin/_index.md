@@ -37,6 +37,12 @@ interests:
   - Σύνθετα ανευρύσματα αορτής (BEVAR, FEVAR, CERAB, chimney)
     
 education:
+  - area: Αγγειοχειρουργική Ειδικότητα
+    institution: A' Αγγειοχειρουργική Κλινική Πανεπιστημίου ΑΘηνών και East Midlands South Deanery, UK
+    date_start: 2009-01-01
+    date_end: 2013-01-31
+    summary: |
+    
   - area: PhD Διδακτορική διατριβή
     institution: Ιατρική Σχολή Πανεπιστημίου Κρήτης
     date_start: 2009-01-01
@@ -78,7 +84,7 @@ work:
     company_name: ΠΓΝ «Αττικόν»
     date_start: 2015-01-01
     date_end: 2019-05-01
-  - position: Locum Doctor – SpR in General Surgery (UK)
+  - position: SpR in General Surgery (UK)
     company_name: Medacs Healthcare, NHS UK
     date_start: 2012-09-01
     date_end: 2014-12-31
