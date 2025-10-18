@@ -24,7 +24,6 @@ marketing:
   verification:
     google: ''                      # Google Search Console token
     baidu: ''
-  favicon: 'favicon.png' 
 
 header:
   navbar:
