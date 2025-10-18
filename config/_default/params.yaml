@@ -22,9 +22,9 @@ marketing:
     fathom: ''
     pirsch: ''
   verification:
-    google: ''                       # Google Search Console token (προαιρετικό)
+    google: ''                      # Google Search Console token
     baidu: ''
-    favicon: "/uploads/favicon.png"
+  favicon: 'favicon.png' 
 
 header:
   navbar:
