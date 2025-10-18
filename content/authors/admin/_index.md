@@ -12,9 +12,9 @@ role: Αγγειοχειρουργός
 
 organizations:
   - name: ΠΓΝ Ιωαννίνων
-    url: https://www.uhi.gr/
+    url: https://maps.app.goo.gl/Az2Y2QNANpELApfi7
   - name: Ιδιωτικό Ιατρείο Αγρινίου
-    url: 'https://vascularized.gr/'
+    url: https://maps.app.goo.gl/rocYVCVz2zs4Xkey9?g_st=ac
 
 profiles:
   - icon: at-symbol
