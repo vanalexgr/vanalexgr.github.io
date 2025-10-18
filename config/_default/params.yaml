@@ -26,17 +26,16 @@ marketing:
     baidu: ''
     favicon: "/uploads/favicon.png"
 
-# Site header
 header:
   navbar:
     enable: true
-    block: 'navbar'
+    blox: "navbar"        # <-- use 'blox' here
     fixed_to_top: true
     show_search: true
-    show_theme_chooser: true   # Βάλε false αν δεν το θες
+    show_theme_chooser: true
     logo:
-      text: ''                                 # Δεν εμφανίζεται κείμενο
-      image: '/uploads/logo.png'                # Διαδρομή εικόνας λογοτύπου
+      text: ""            # hide text
+      filename: "logo.png"          # <-- file lives in assets/media/
 
 # Site footer
 footer:
