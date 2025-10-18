@@ -37,9 +37,6 @@ header:
     logo:
       text: ''                                 # Δεν εμφανίζεται κείμενο
       image: '/uploads/logo.png'                # Διαδρομή εικόνας λογοτύπου
-      alt_text: 'Ευάγγελος Αλεξίου, Αγγειοχειρουργός'   # SEO & accessibility
-      width: 180                               # Προαιρετικό — μέγεθος σε px
-      link_url: '/'                            # Το logo οδηγεί στην αρχική σελίδα
 
 # Site footer
 footer:
