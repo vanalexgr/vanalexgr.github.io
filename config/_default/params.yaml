@@ -8,12 +8,11 @@ appearance:
   mode: system        # Options: light, dark, system
   color: indigo       # Theme color (kept from template)
 
-# SEO
 marketing:
   seo:
     site_type: Person
-    local_business_type: Physician   # Schema.org: για ιατρό
-    org_name: ''                     # Κράτα κενό (προσωπικό site)
+    local_business_type: Physician
+    org_name: 'Αγγειοχειρουργός Ευάγγελος Αλεξίου – Ιωαννίνα & Αγρίνιο'
     description: 'Ευάγγελος Αλεξίου, Αγγειοχειρουργός. Επιμελητής Α΄ στο ΠΓΝ Ιωαννίνων και ιδιωτικό ιατρείο στο Αγρίνιο. Εξειδίκευση σε ενδαγγειακές και συμβατικές επεμβάσεις αρτηριών και φλεβών, καρωτίδα, ανευρύσματα αορτής, φλεβική ανεπάρκεια,διαβητικός πόδι, αγγειακή προσπέλαση αιμοκάθαρσης, laser φλεβών.'
     twitter: ''                      # Βάλε handle αν θες (π.χ. 'vanalex')
   analytics:
@@ -35,7 +34,7 @@ header:
     show_search: true
     show_theme_chooser: true         # Βάλε false αν δεν το θες
     logo:
-      text: 'Ε. Αλεξίου'      # Εμφανιζόμενο λεκτικό στο logo
+      text: 'Ε. Αλεξίου, Αγγειοχειρουργός'      # Εμφανιζόμενο λεκτικό στο logo
 
 # Site footer
 footer:
