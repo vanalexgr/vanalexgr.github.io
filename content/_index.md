@@ -4,7 +4,7 @@ date: 2022-10-24
 type: landing
 
 design:
-  spacing: "6rem"
+  spacing: "6rem"  # Default section spacing
 
 sections:
   - block: resume-biography-3
@@ -50,7 +50,7 @@ sections:
           - publications
         featured_only: true   # Only show items marked as featured
     design:
-      view: article-grid      # card, list, article, citation, article-grid
+      view: article-grid      # Options: card, list, article, citation, article-grid
       columns: 2
 
   - block: collection
@@ -80,8 +80,8 @@ sections:
       title: "Blog / Βίντεο"
       subtitle: ""
       text: ""
-      page_type: blog
-      count: 5
+      page_type: blog            # Page type to display. E.g. post, talk, publication...
+      count: 5                   # Number of pages to show (0 = all)
       filters:
         author: ""
         category: ""
@@ -90,25 +90,25 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ""
-      offset: 0
-      order: desc
+      offset: 0                  # Skip this many pages
+      order: desc                # Page order: descending (desc) or ascending (asc) date.
     design:
       view: card
       spacing:
         padding: [0, 0, 0, 0]
 
-- block: markdown
-  content:
-    title: "📞 Επικοινωνία"
-    text: |-
-      - 📧 **Email:** [v.alexiou@aibs.gr](mailto:v.alexiou@aibs.gr)
-      - 📱 **Κινητό:** [+30 699 3031 175](tel:+306993031175)
-      - ☎️ **Γραφείο ΠΓΝ Ιωαννίνων:** [+30 26510 99692](tel:+302651099692)
-      - 🏥 **[Ιατρείο Αγρινίου – Google Maps](https://maps.app.goo.gl/XTBTAhAXWQJPyz7c9)**
-      - 🧬 **ORCID:** [0000-0003-1388-4880](https://orcid.org/0000-0003-1388-4880)
-      - 📊 **Scopus:** [18433424100](https://www.scopus.com/authid/detail.uri?authorId=18433424100)
-      - 🩺 **ΕΕΑΕΧ:** [Προφίλ](https://www.vascularsociety.gr/user/vanalex)
-      - 💼 **LinkedIn:** [linkedin.com/in/vangelis-alexiou-27b9a432](https://gr.linkedin.com/in/vangelis-alexiou-27b9a432)
-  design:
-    columns: 1
+  - block: markdown
+    content:
+      title: "📞 Επικοινωνία"
+      text: |-
+        - 📧 **Email:** [v.alexiou@aibs.gr](mailto:v.alexiou@aibs.gr)
+        - 📱 **Κινητό:** [+30 699 3031 175](tel:+306993031175)
+        - ☎️ **Γραφείο ΠΓΝ Ιωαννίνων:** [+30 26510 99692](tel:+302651099692)
+        - 🏥 **[Ιατρείο Αγρινίου – Google Maps](https://maps.app.goo.gl/XTBTAhAXWQJPyz7c9)**
+        - 🧬 **ORCID:** [0000-0003-1388-4880](https://orcid.org/0000-0003-1388-4880)
+        - 📊 **Scopus:** [18433424100](https://www.scopus.com/authid/detail.uri?authorId=18433424100)
+        - 🩺 **ΕΕΑΕΧ:** [Προφίλ](https://www.vascularsociety.gr/user/vanalex)
+        - 💼 **LinkedIn:** [linkedin.com/in/vangelis-alexiou-27b9a432](https://gr.linkedin.com/in/vangelis-alexiou-27b9a432)
+    design:
+      columns: 1
 ---
