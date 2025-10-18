@@ -39,12 +39,12 @@ header:
       width: 180                               # Προαιρετικό — μέγεθος σε px
       link_url: '/'                            # Το logo οδηγεί στην αρχική σελίδα
 
-# Site footer
 footer:
+enable: false 
   copyright:
     notice: '© {year} Ευάγγελος Αλεξίου. This work is licensed under {license}'
     license:
-      enable: false                   # Αν δεν θέλεις άδεια, κάνε false
+      enable: true                   # Αν δεν θέλεις άδεια, κάνε false
       allow_derivatives: false
       share_alike: false
       allow_commercial: false
