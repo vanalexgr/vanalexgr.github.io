@@ -1,29 +1,29 @@
 # SITE SETUP
 # Guide: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# YAML syntax: https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
 appearance:
-  mode: system
-  color: indigo
+  mode: system        # Options: light, dark, system
+  color: indigo       # Theme color (kept from template)
 
 # SEO
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    local_business_type: Physician   # Schema.org: για ιατρό
+    org_name: ''                     # Κράτα κενό (προσωπικό site)
+    description: 'Ευάγγελος Αλεξίου, Αγγειοχειρουργός. Επιμελητής Α΄ στο ΠΓΝ Ιωαννίνων και ιδιωτικό ιατρείο στο Αγρίνιο. Εξειδίκευση σε ενδαγγειακές και συμβατικές επεμβάσεις αρτηριών και φλεβών, καρωτίδα, ανευρύσματα αορτής, φλεβική ανεπάρκεια,διαβητικός πόδι, αγγειακή προσπέλαση αιμοκάθαρσης, laser φλεβών.'
+    twitter: ''                      # Βάλε handle αν θες (π.χ. 'vanalex')
   analytics:
-    google_analytics: ''
+    google_analytics: ''             # π.χ. G-XXXXXXXX
     baidu_tongji: ''
     plausible: ''
     fathom: ''
     pirsch: ''
   verification:
-    google: ''
+    google: ''                       # Google Search Console token (προαιρετικό)
     baidu: ''
 
 # Site header
@@ -33,28 +33,29 @@ header:
     block: 'navbar'
     fixed_to_top: true
     show_search: true
-    show_theme_chooser: true
+    show_theme_chooser: true         # Βάλε false αν δεν το θες
     logo:
-      text: 'Your Name'
+      text: 'Ε. Αλεξίου'      # Εμφανιζόμενο λεκτικό στο logo
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Ευάγγελος Αλεξίου. This work is licensed under {license}'
     license:
-      enable: true
+      enable: true                   # Αν δεν θέλεις άδεια, κάνε false
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  # Προσοχή: τα ελληνικά ονόματα μηνών απαιτούν i18n. Αυτό είναι Go time format.
+  date_format: '2 Jan 2006'
+  time_format: '15:04'
 
 # Site features
 features:
   math:
     enable: false
   privacy_pack:
-    enable: false
+    enable: true                    # Κάντο true αν θες cookie consent banner
