@@ -114,10 +114,10 @@ skills:
     items:
       - name: ανοιχτη αποκατασταση ανευρυσματος, αορτοδιμηριαια παρακαμψη
         percent: 90
-        icon: open-surgery
+        icon: /icons/open-surgery.svg
       - name: ενδαρτηρεκτομη καρωτιδας
         percent: 85
-        icon: stenosis
+        icon: hero/heart
       - name: μηροιγνυακες και περιφερικες παρακαμψεις
         percent: 90
         icon: graft
