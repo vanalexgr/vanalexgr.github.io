@@ -34,7 +34,7 @@ header:
     show_theme_chooser: true
     logo:
       text: ""            # hide text
-      filename: "logo1.svg"          # <-- file lives in assets/media/
+      filename: "logo.svg"          # <-- file lives in assets/media/
 
 # Site footer
 footer:
