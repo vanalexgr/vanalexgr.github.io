@@ -13,18 +13,18 @@ sections:
       username: admin # Αναφέρεται στο φάκελο `content/authors/admin/`
     design:
       date_format: 'January 2006' # Μορφή ημερομηνίας που εμφανίζεται στην εμπειρία
-      is_education_first: false # Πρώτα επαγγελματική εμπειρία, μετά εκπαίδευση
+      is_education_first: true # Πρώτα επαγγελματική εμπειρία, μετά εκπαίδευση
 
   - block: resume-skills
     content:
-      title: Δεξιότητες & Ενδιαφέροντα
+      title: Χειρουργικά Ενδιαφέροντα
       username: admin
     design:
-      show_skill_percentage: true # Απόκρυψη ποσοστών δεξιοτήτων
+      show_skill_percentage: false # Απόκρυψη ποσοστών δεξιοτήτων
 
   - block: resume-awards
     content:
-      title: Διακρίσεις
+      title: Προηγμένες χειρουργικές τεχνικές
       username: admin
 
   - block: resume-languages
