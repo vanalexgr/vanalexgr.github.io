@@ -114,7 +114,7 @@ skills:
     items:
       - name: ανοιχτη αποκατασταση ανευρυσματος, αορτοδιμηριαια παρακαμψη
         percent: 90
-        icon: open_surgery
+        icon: open-surgery
       - name: ενδαρτηρεκτομη καρωτιδας
         percent: 85
         icon: stenosis
@@ -128,16 +128,16 @@ skills:
     items:
       - name: EVAR - TEVAR αποκατασταση κοιλιακων και θωρακικων ανευρυσματων με χρηση stents
         percent: 90
-        icon: EVAR
+        icon: evar
       - name: stent καρωτιδας
         percent: 85
         icon: stent
       - name: περιφερικη αρτηριακη νοσος - αγγειοπλαστικη και stenting
         percent: 90
-        icon: artery_flow
+        icon: artery-flow
       - name: αγγειοπλαστικη φιστουλας, τοποθετηση κεντρικου καθετηρα αιμοκαθαρσης
         percent: 80
-        icon: CVC
+        icon: cvc
 
 languages:
   - name: Αγγλικά (Proficiency)
