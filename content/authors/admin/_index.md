@@ -1,3 +1,4 @@
++
 ---
 title: Ευάγγελος Αλεξίου
 name_pronunciation: ''
@@ -5,7 +6,7 @@ first_name: Ευάγγελος
 last_name: Αλεξίου
 pronouns: ''
 status:
-  icon: ⚕️
+  icon: surgery
 superuser: true
 highlight_name: false
 role: Αγγειοχειρουργός
@@ -114,30 +115,30 @@ skills:
     items:
       - name: ανοιχτη αποκατασταση ανευρυσματος, αορτοδιμηριαια παρακαμψη
         percent: 90
-        icon: scalpel
+        icon: open_surgery
       - name: ενδαρτηρεκτομη καρωτιδας
         percent: 85
-        icon: heart-pulse
+        icon: stenosis
       - name: μηροιγνυακες και περιφερικες παρακαμψεις
         percent: 90
-        icon: waveform
+        icon: graft
       - name: φιστουλες και μοσχευματα αιμοκαθαρσης
         percent: 80
-        icon: plug
+        icon: dialysis
   - name: Ενδαγγειακή χειρουργική (ελάχιστα επεμβατική)
     items:
       - name: EVAR - TEVAR αποκατασταση κοιλιακων και θωρακικων ανευρυσματων με χρηση stents
         percent: 90
-        icon: scalpel
+        icon: EVAR
       - name: stent καρωτιδας
         percent: 85
-        icon: heart-pulse
+        icon: stent
       - name: περιφερικη αρτηριακη νοσος - αγγειοπλαστικη και stenting
         percent: 90
-        icon: waveform
+        icon: artery_flow
       - name: αγγειοπλαστικη φιστουλας, τοποθετηση κεντρικου καθετηρα αιμοκαθαρσης
         percent: 80
-        icon: plug
+        icon: CVC
 
 languages:
   - name: Αγγλικά (Proficiency)
