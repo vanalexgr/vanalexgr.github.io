@@ -116,7 +116,7 @@ skills:
         icon: "custom/stenosis"
       - name: "μηροιγνυακες και περιφερικες παρακαμψεις"
         percent: 90
-        icon: "custom/graft"
+        icon: "custom/avf"
       - name: "φιστουλες και μοσχευματα αιμοκαθαρσης"
         percent: 80
         icon: "custom/dialysis"
