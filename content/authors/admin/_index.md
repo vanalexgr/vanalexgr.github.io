@@ -1,4 +1,3 @@
-+
 ---
 title: Ευάγγελος Αλεξίου
 name_pronunciation: ''
