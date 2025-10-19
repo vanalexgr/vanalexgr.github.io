@@ -1,34 +1,48 @@
 ---
-title: 'Εμπειρία'
+title: 'Εμπειρία & Εκπαίδευση'
 date: 2023-10-24
 type: landing
 
 design:
   spacing: '5rem'
 
-# Οι ενότητες της σελίδας
+# Ενότητες της σελίδας
 sections:
   - block: resume-experience
     content:
-      username: admin # Αναφέρεται στο φάκελο `content/authors/admin/`
+      title: Επαγγελματική Εμπειρία
+      username: admin                     # Αναφέρεται στο φάκελο content/authors/admin/
     design:
-      date_format: 'January 2006' # Μορφή ημερομηνίας που εμφανίζεται στην εμπειρία
-      is_education_first: true # Πρώτα επαγγελματική εμπειρία, μετά εκπαίδευση
+      date_format: 'January 2006'         # Μορφή ημερομηνίας
+      show_title: true                    # Εμφάνιση τίτλου
+
+  - block: resume-education
+    content:
+      title: Εκπαίδευση
+      username: admin
+    design:
+      date_format: 'January 2006'
+      show_title: true
 
   - block: resume-skills
     content:
       title: Χειρουργικά Ενδιαφέροντα
       username: admin
     design:
-      show_skill_percentage: false # Απόκρυψη ποσοστών δεξιοτήτων
+      show_skill_percentage: false
+      show_title: true
 
   - block: resume-awards
     content:
-      title: Προηγμένες χειρουργικές τεχνικές
+      title: Προηγμένες Χειρουργικές Τεχνικές
       username: admin
+    design:
+      show_title: true
 
   - block: resume-languages
     content:
       title: Γλώσσες
       username: admin
+    design:
+      show_title: true
 ---
