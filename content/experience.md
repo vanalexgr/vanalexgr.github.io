@@ -6,27 +6,19 @@ type: landing
 design:
   spacing: '5rem'
 
-# Ενότητες της σελίδας
 sections:
   - block: resume-experience
     content:
-      title: Επαγγελματική Εμπειρία
-      username: admin                     # Αναφέρεται στο φάκελο content/authors/admin/
+      title: 'Εμπειρία & Εκπαίδευση'  # Τίτλος ενότητας που θα φαίνεται στη σελίδα
+      username: admin                # Φάκελος content/authors/admin/
     design:
-      date_format: 'January 2006'         # Μορφή ημερομηνίας
-      show_title: true                    # Εμφάνιση τίτλου
-
-  - block: resume-education
-    content:
-      title: Εκπαίδευση
-      username: admin
-    design:
-      date_format: 'January 2006'
-      show_title: true
+      date_format: 'January 2006'    # Μορφή ημερομηνίας στο widget
+      is_education_first: false      # false: πρώτα Εμπειρία, μετά Εκπαίδευση (βάλε true αν θες το ανάποδο)
+      show_title: true               # Εμφάνιση τίτλου ενότητας
 
   - block: resume-skills
     content:
-      title: Χειρουργικά Ενδιαφέροντα
+      title: 'Χειρουργικά Ενδιαφέροντα'
       username: admin
     design:
       show_skill_percentage: false
@@ -34,14 +26,14 @@ sections:
 
   - block: resume-awards
     content:
-      title: Προηγμένες Χειρουργικές Τεχνικές
+      title: 'Προηγμένες Χειρουργικές Τεχνικές'
       username: admin
     design:
       show_title: true
 
   - block: resume-languages
     content:
-      title: Γλώσσες
+      title: 'Γλώσσες'
       username: admin
     design:
       show_title: true
