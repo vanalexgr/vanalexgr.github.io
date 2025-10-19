@@ -36,12 +36,12 @@ interests:
   - Περιφερική αρτηριακή νόσος & διαβητικό πόδι
   - Σύνθετα ανευρύσματα αορτής (BEVAR, FEVAR, CERAB, chimney)
     
-Ειδικότητα και πτυχία:
+education:
   - area: Aγγειακή και Ενδαγγειακή Χειρουργική
     institution: Αγγειοχειρουργική Κλινική Πανεπιστημίου ΑΘηνών και East Midlands South Deanery, UK
     date_start: 2010-01-01
     date_end: 2019-01-31
-    summary: |
+    summary: ''
     
   - area: PhD Διδακτορική διατριβή
     institution: Ιατρική Σχολή Πανεπιστημίου Κρήτης
