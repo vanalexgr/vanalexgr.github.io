@@ -5,7 +5,7 @@ first_name: Ευάγγελος
 last_name: Αλεξίου
 pronouns: ''
 status:
-  icon: surgery
+  icon: ⚕️
 superuser: true
 highlight_name: false
 role: Αγγειοχειρουργός
