@@ -46,22 +46,22 @@ sections:
   # ↓↓↓ ΝΕΟ: Features block με custom SVG από assets/media/icons/custom/*.svg
   - block: features
     content:
-      title: "🩺 Χειρουργικές Δραστηριότητες"
+      title: "🩺 Χειρουργικές Επεμβάσεις"
       items:
         - icon: custom/open-surgery
-          name: "Ανοικτές επεμβάσεις (αορτοδιμηριαία, ανευρύσματα)"
+          name: "Ανοικτή αορτική χειρουργική"
         - icon: "custom/med.svg"
-          name: "EVAR / TEVAR"
+          name: "Ενδαγγειακή αποκατάσταση ανευρυσμάτων EVAR / TEVAR"
         - icon: heart
-          name: "Stent καρωτίδας"
+          name: "Καρωτιδική ενδαρτηρεκτομή"
         - icon: custom/med
-          name: "Αγγειοπλαστική / Περιφερική νόσος"
+          name: "Μηρο-ιγνυακή και περιφερική παράκαμψη"
         - icon: custom/test
-          name: "CVC / Φίστουλες αιμοκάθαρσης"
+          name: "Μοσχεύματα / Φίστουλες αιμοκάθαρσης"
         - icon: custom/graft
-          name: "Παρακάμψεις / Μοσχεύματα"
+          name: "Αγγειοπλαστική αρτηριών"
         - icon: "custom/avf"
-          name: "Αιμοκάθαρση / Παρεμβάσεις προσπέλασης"
+          name: "Laser κιρσών"
     design:
       columns: 2   # 1, 2, 3, 4 (δοκίμασε να δεις τι σου ταιριάζει)
 
