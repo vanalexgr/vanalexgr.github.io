@@ -23,5 +23,5 @@ main:
     url: blog/
     weight: 30
   - name: Επικοινωνία
-    url: contact/
+    url: /#📞 Επικοινωνία
     weight: 40
