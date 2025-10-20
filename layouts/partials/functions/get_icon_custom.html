@@ -1,0 +1,9 @@
+{{/* Inline/IMG custom SVG loader from assets/media/icons/custom/<name>.svg */}}
+{{- $name := . -}}
+{{- $res := resources.Get (printf "media/icons/custom/%s.svg" $name) -}}
+{{- with $res -}}
+  {{ .Content | safeHTML }}
+{{- else -}}
+  {{/* Fallback: προσπάθησε από static */}}
+  <img class="svg-icon" src="/icons/{{ $name }}.svg" alt="{{ $name }}" loading="lazy">
+{{- end -}}
