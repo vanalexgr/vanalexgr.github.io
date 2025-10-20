@@ -71,7 +71,7 @@ sections:
       title: Επιλεγμένες Δημοσιεύσεις
       filters:
         folders:
-          - publications
+          - publication
         featured_only: true   # Only show items marked as featured
     design:
       view: article-grid      # Options: card, list, article, citation, article-grid
@@ -83,7 +83,7 @@ sections:
       text: ""
       filters:
         folders:
-          - publications
+          - publication
         exclude_featured: false
     design:
       view: citation
