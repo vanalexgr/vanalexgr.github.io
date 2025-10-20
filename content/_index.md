@@ -42,20 +42,20 @@ sections:
       columns: 1
     
   - block: features
-    content:
-      title: "🩺 Χειρουργικές Δραστηριότητες"
-      text: |-
-        <div class="grid md:grid-cols-2 gap-3 leading-7">
-        <div> {{< icon name="open-surgery" pack="custom" >}} Ανοικτές επεμβάσεις (αορτοδιμηριαία, ανευρύσματα) </div>
-        <div> {{< icon name="evar" pack="custom" >}} EVAR/TEVAR </div>
-        <div> {{< icon name="stent" pack="custom" >}} Stent καρωτίδας </div>
-        <div> {{< icon name="artery-flow" pack="custom" >}} Αγγειοπλαστική/Περιφερική Νόσος </div>
-        <div> {{< icon name="cvc" pack="custom" >}} CVC/Φίστουλες αιμοκάθαρσης </div>
-        <div> {{< icon name="graft" pack="custom" >}} Παρακάμψεις/Μοσχεύματα </div>
-        <div> {{< icon name="dialysis" pack="custom" >}} Αιμοκάθαρση/Παρεμβάσεις προσπέλασης </div>
-        </div>
-    design:
-      columns: 1
+  content:
+    title: "🩺 Χειρουργικές Δραστηριότητες"
+    items:
+      - icon: open-surgery
+        icon_pack: hero
+        name: "Ανοικτές επεμβάσεις (αορτοδιμηριαία, ανευρύσματα)"
+      - icon: evar
+        icon_pack: hero
+        name: "EVAR / TEVAR"
+      - icon: stent
+        icon_pack: custom
+        name: "Stent καρωτίδας"
+      - icon: hero/artery-flow
+        name: "Αγγειοπλαστική / Περιφερική νόσος"
 
   - block: collection
     id: papers
