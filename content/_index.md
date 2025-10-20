@@ -41,7 +41,7 @@ sections:
     design:
       columns: 1
     
-  - block: markdown
+  - block: features
     content:
       title: "🩺 Χειρουργικές Δραστηριότητες"
       text: |-
