@@ -120,7 +120,7 @@ sections:
         - 🧬 **ORCID:** [0000-0003-1388-4880](https://orcid.org/0000-0003-1388-4880)
         - 📊 **Scopus:** [18433424100](https://www.scopus.com/authid/detail.uri?authorId=18433424100)
         - 🩺 **ΕΕΑΕΧ:** [Προφίλ](https://www.vascularsociety.gr/user/vanalex)
-        - 💼 **LinkedIn:** [linkedin.com/in/vangelis-alexiou-27b9a432](https://gr.linkedin.com/in/vangelis-alexiou-27b9a432)
+        - 💼 **LinkedIn:** [Profile](https://gr.linkedin.com/in/vangelis-alexiou-27b9a432)
     design:
       columns: 1
 ---
