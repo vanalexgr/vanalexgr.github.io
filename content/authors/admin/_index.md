@@ -105,50 +105,44 @@ work:
     date_start: "2006-09-01"
     date_end: "2008-10-31"
 
-block: markdown
-  content:
-    title: "Χειρουργικά Ενδιαφέροντα"
-    text: |-
-      <div class="grid md:grid-cols-2 gap-3">
-      <div> {{< icon name="open-surgery" pack="custom" >}} Ανοικτές επεμβάσεις (αορτοδιμηριαία, ανευρύσματα) </div>
-      <div> {{< icon name="evar"          pack="custom" >}} EVAR/TEVAR </div>
-      <div> {{< icon name="stent"         pack="custom" >}} Stent καρωτίδας </div>
-      <div> {{< icon name="artery-flow"   pack="custom" >}} Αγγειοπλαστική/Περιφερική Νόσος </div>
-      <div> {{< icon name="cvc"           pack="custom" >}} CVC/Φίστουλες αιμοκάθαρσης </div>
-      <div> {{< icon name="graft"         pack="custom" >}} Παρακάμψεις/Μοσχεύματα </div>
-      <div> {{< icon name="dialysis"      pack="custom" >}} Αιμοκάθαρση/Παρεμβάσεις προσπέλασης </div>
-      </div>
-
 skills:
   - name: "Αγγειακή χειρουργική (ανοιχτές επεμβάσεις)"
     items:
       - name: "ανοιχτη αποκατασταση ανευρυσματος, αορτοδιμηριαια παρακαμψη"
         percent: 90
-        icon: "custom/med"
+        icon_pack: custom
+        icon: open-surgery
       - name: "ενδαρτηρεκτομη καρωτιδας"
         percent: 85
-        icon: "custom/stenosis"
+        icon_pack: custom
+        icon: stenosis
       - name: "μηροιγνυακες και περιφερικες παρακαμψεις"
         percent: 90
         icon_pack: custom
-        icon: avf
+        icon: graft
       - name: "φιστουλες και μοσχευματα αιμοκαθαρσης"
         percent: 80
-        icon: "custom/dialysis"
+        icon_pack: custom
+        icon: dialysis
+
   - name: "Ενδαγγειακή χειρουργική (ελάχιστα επεμβατική)"
     items:
       - name: "EVAR - TEVAR αποκατασταση κοιλιακων και θωρακικων ανευρυσματων με χρηση stents"
         percent: 90
-        icon: sparkles
+        icon_pack: custom
+        icon: evar
       - name: "stent καρωτιδας"
         percent: 85
-        icon: "custom/stent"
+        icon_pack: custom
+        icon: stent
       - name: "περιφερικη αρτηριακη νοσος - αγγειοπλαστικη και stenting"
         percent: 90
-        icon: "custom/artery-flow"
+        icon_pack: custom
+        icon: artery-flow
       - name: "αγγειοπλαστικη φιστουλας, τοποθετηση κεντρικου καθετηρα αιμοκαθαρσης"
         percent: 80
-        icon: "custom/cvc"
+        icon_pack: custom
+        icon: cvc
 
 languages:
   - name: "Αγγλικά (Proficiency)"
@@ -156,5 +150,3 @@ languages:
   - name: "Γαλλικά (Sorbonne II)"
     percent: 100
 ---
-
-Ο Ευάγγελος Αλεξίου είναι Επιμελητής Α΄ Αγγειοχειρουργός στο Πανεπιστημιακό Γενικό Νοσοκομείο Ιωαννίνων και διατηρεί ιδιωτικό ιατρείο στο Αγρίνιο. Έχει Διδακτορικό στις Χειρουργικές Λοιμώξεις, δύο μεταπτυχιακούς τίτλους και πολυετή εμπειρία στην Ελλάδα και το NHS Αγγλίας. Εξειδικεύεται στην ενδαγγειακή και συμβατική αγγειοχειρουργική, ιδιαίτερα σε επεμβάσεις αορτής, καρωτίδων και φλεβών. Έχει πλούσια ερευνητική του δραστηριότητα και είναι Ταμίας της Ελληνικής Εταιρείας Αγγειακής και Ενδαγγειακής Χειρουργικής.
