@@ -1,0 +1,32 @@
+{{/* Minimal override: κρατάμε layout απλό και φτιάχνουμε μόνο το rendering των icons */}}
+{{- $b := . -}}
+<section id="{{ $b.id | default "skills" }}" class="section">
+  <div class="container">
+    {{ with $b.content.title }}<h2>{{ . }}</h2>{{ end }}
+
+    {{/* Φέρνουμε τον author (admin) και διατρέχουμε τα groups των skills */}}
+    {{ $author := site.GetPage (printf "authors/%s" ($b.content.username | default "admin")) }}
+    {{ range $group := $author.Params.skills }}
+      <div class="mb-6">
+        {{ with $group.name }}<h3 class="text-xl font-semibold mb-2">{{ . }}</h3>{{ end }}
+        <ul class="grid gap-2">
+          {{ range $item := $group.items }}
+            <li class="flex items-center gap-2">
+              {{- $icon := $item.icon -}}
+              {{- $pack := $item.icon_pack | default "" -}}
+
+              {{- if and $icon (eq $pack "custom") -}}
+                {{ partial "functions/get_icon_custom.html" $icon }}
+              {{- else if $icon -}}
+                {{/* αφήνουμε τα built-ins (hero/…, brands/…, academicons/…) στο default resolver του theme */}}
+                {{ partial "functions/get_icon.html" (dict "icon" $icon "icon_pack" $pack) }}
+              {{- end -}}
+
+              <span>{{ $item.name }}</span>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+  </div>
+</section>
