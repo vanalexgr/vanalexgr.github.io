@@ -66,18 +66,6 @@ sections:
       columns: 2   # 1, 2, 3, 4 (δοκίμασε να δεις τι σου ταιριάζει)
 
   - block: collection
-    id: papers
-    content:
-      title: Επιλεγμένες Δημοσιεύσεις
-      filters:
-        folders:
-          - publication
-        featured_only: true   # Only show items marked as featured
-    design:
-      view: article-grid      # Options: card, list, article, citation, article-grid
-      columns: 2
-
-  - block: collection
     content:
       title: Πρόσφατες Δημοσιεύσεις
       text: ""
