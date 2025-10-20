@@ -1,0 +1,15 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const navLinks = document.querySelectorAll('.navbar-collapse a[href^="#"], .navbar-collapse a[href^="/#"]');
+  const bsCollapse = document.querySelector('.navbar-collapse');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      if (bsCollapse.classList.contains('show')) {
+        const collapse = new bootstrap.Collapse(bsCollapse, { toggle: true });
+        collapse.hide();
+      }
+    });
+  });
+});
+</script>
