@@ -105,6 +105,20 @@ work:
     date_start: "2006-09-01"
     date_end: "2008-10-31"
 
+block: markdown
+  content:
+    title: "Χειρουργικά Ενδιαφέροντα"
+    text: |-
+      <div class="grid md:grid-cols-2 gap-3">
+      <div> {{< icon name="open-surgery" pack="custom" >}} Ανοικτές επεμβάσεις (αορτοδιμηριαία, ανευρύσματα) </div>
+      <div> {{< icon name="evar"          pack="custom" >}} EVAR/TEVAR </div>
+      <div> {{< icon name="stent"         pack="custom" >}} Stent καρωτίδας </div>
+      <div> {{< icon name="artery-flow"   pack="custom" >}} Αγγειοπλαστική/Περιφερική Νόσος </div>
+      <div> {{< icon name="cvc"           pack="custom" >}} CVC/Φίστουλες αιμοκάθαρσης </div>
+      <div> {{< icon name="graft"         pack="custom" >}} Παρακάμψεις/Μοσχεύματα </div>
+      <div> {{< icon name="dialysis"      pack="custom" >}} Αιμοκάθαρση/Παρεμβάσεις προσπέλασης </div>
+      </div>
+
 skills:
   - name: "Αγγειακή χειρουργική (ανοιχτές επεμβάσεις)"
     items:
