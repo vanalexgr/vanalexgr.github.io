@@ -110,31 +110,31 @@ skills:
     items:
       - name: "ανοιχτη αποκατασταση ανευρυσματος, αορτοδιμηριαια παρακαμψη"
         percent: 90
-        icon: open-surgery
+        icon: open-surgery.svg
       - name: "ενδαρτηρεκτομη καρωτιδας"
         percent: 85
         icon: stenosis
       - name: "μηροιγνυακες και περιφερικες παρακαμψεις"
         percent: 90
-        icon: graft
+        icon: grafts.svg
       - name: "φιστουλες και μοσχευματα αιμοκαθαρσης"
         percent: 80
-        icon: dialysis
+        icon: dialysis.svg
 
   - name: "Ενδαγγειακή χειρουργική (ελάχιστα επεμβατική)"
     items:
       - name: "EVAR - TEVAR αποκατασταση κοιλιακων και θωρακικων ανευρυσματων με χρηση stents"
         percent: 90
-        icon: evar
+        icon: hero/evar
       - name: "stent καρωτιδας"
         percent: 85
         icon: stent
       - name: "περιφερικη αρτηριακη νοσος - αγγειοπλαστικη και stenting"
         percent: 90
-        icon: artery-flow
+        icon: hero/artery-flow.svg
       - name: "αγγειοπλαστικη φιστουλας, τοποθετηση κεντρικου καθετηρα αιμοκαθαρσης"
         percent: 80
-        icon: cvc
+        icon: cvc.svg
 
 languages:
   - name: "Αγγλικά (Proficiency)"
