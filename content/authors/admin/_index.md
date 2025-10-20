@@ -110,7 +110,7 @@ skills:
     items:
       - name: "ανοιχτη αποκατασταση ανευρυσματος, αορτοδιμηριαια παρακαμψη"
         percent: 90
-        icon: "custom/open-surgery"
+        icon: "custom/med"
       - name: "ενδαρτηρεκτομη καρωτιδας"
         percent: 85
         icon: "custom/stenosis"
