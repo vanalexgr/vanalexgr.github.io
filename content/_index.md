@@ -110,6 +110,7 @@ sections:
         padding: [0, 0, 0, 0]
 
   - block: markdown
+    id: contact
     content:
       title: "📞 Επικοινωνία"
       text: |-
