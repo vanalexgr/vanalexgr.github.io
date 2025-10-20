@@ -128,7 +128,7 @@ skills:
         icon: hero/evar
       - name: "stent καρωτιδας"
         percent: 85
-        icon: stent
+        icon: heart
       - name: "περιφερικη αρτηριακη νοσος - αγγειοπλαστικη και stenting"
         percent: 90
         icon: hero/artery-flow.svg
