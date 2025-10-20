@@ -124,7 +124,7 @@ skills:
     items:
       - name: "EVAR - TEVAR αποκατασταση κοιλιακων και θωρακικων ανευρυσματων με χρηση stents"
         percent: 90
-        icon: "custom/evar"
+        icon: sparkles
       - name: "stent καρωτιδας"
         percent: 85
         icon: "custom/stent"
