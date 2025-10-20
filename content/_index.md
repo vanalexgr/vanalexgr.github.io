@@ -1,4 +1,5 @@
 ---
+# Leave the homepage title empty to use the site title
 title: ""
 date: 2022-10-24
 type: landing
@@ -7,6 +8,7 @@ design:
   spacing: "6rem"  # Default section spacing
 
 sections:
+
   - block: resume-biography-3
     content:
       username: admin
@@ -18,7 +20,7 @@ sections:
         - Είναι **μέλος του Διοικητικού Συμβουλίου** και **ταμίας** της **Ελληνικής Εταιρείας Αγγειακής και Ενδαγγειακής Χειρουργικής**.
       button:
         text: Κλείστε ραντεβού
-        url: 
+        url: "tel:+306993031175"   # ή 'mailto:v.alexiou@aibs.gr'
       headings:
         about: Επαγγελματικό προφίλ
         education: Πτυχία - Ειδικότητα
@@ -40,22 +42,34 @@ sections:
         - Σύνθετα ανευρύσματα αορτής
     design:
       columns: 1
-    
+
+  # ↓↓↓ ΝΕΟ: Features block με custom SVG από assets/media/icons/custom/*.svg
   - block: features
-  content:
-    title: "🩺 Χειρουργικές Δραστηριότητες"
-    items:
-      - icon: open-surgery
-        icon_pack: hero
-        name: "Ανοικτές επεμβάσεις (αορτοδιμηριαία, ανευρύσματα)"
-      - icon: evar
-        icon_pack: hero
-        name: "EVAR / TEVAR"
-      - icon: stent
-        icon_pack: custom
-        name: "Stent καρωτίδας"
-      - icon: hero/artery-flow
-        name: "Αγγειοπλαστική / Περιφερική νόσος"
+    content:
+      title: "🩺 Χειρουργικές Δραστηριότητες"
+      items:
+        - icon: open-surgery
+          icon_pack: custom      # τα αρχεία είναι στο assets/media/icons/custom/open-surgery.svg
+          name: "Ανοικτές επεμβάσεις (αορτοδιμηριαία, ανευρύσματα)"
+        - icon: evar
+          icon_pack: hero
+          name: "EVAR / TEVAR"
+        - icon: stent
+          icon_pack: hero
+          name: "Stent καρωτίδας"
+        - icon: artery-flow
+          icon_pack: hero
+          name: "Αγγειοπλαστική / Περιφερική νόσος"
+        - icon: hero/cvc
+          name: "CVC / Φίστουλες αιμοκάθαρσης"
+        - icon: graft
+          icon_pack: hero
+          name: "Παρακάμψεις / Μοσχεύματα"
+        - icon: dialysis
+          icon_pack: hero
+          name: "Αιμοκάθαρση / Παρεμβάσεις προσπέλασης"
+    design:
+      columns: 2   # 1, 2, 3, 4 (δοκίμασε να δεις τι σου ταιριάζει)
 
   - block: collection
     id: papers
