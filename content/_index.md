@@ -50,13 +50,13 @@ sections:
       items:
         - icon: custom/open-surgery
           name: "Ανοικτές επεμβάσεις (αορτοδιμηριαία, ανευρύσματα)"
-        - icon: "custom/med"
+        - icon: "custom/med.svg"
           name: "EVAR / TEVAR"
         - icon: heart
           name: "Stent καρωτίδας"
-        - icon: custom/artery-flow
+        - icon: custom/med
           name: "Αγγειοπλαστική / Περιφερική νόσος"
-        - icon: "custom/cvc.svg"
+        - icon: custom/test
           name: "CVC / Φίστουλες αιμοκάθαρσης"
         - icon: custom/graft
           name: "Παρακάμψεις / Μοσχεύματα"
