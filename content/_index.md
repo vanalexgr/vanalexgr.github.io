@@ -21,6 +21,7 @@ sections:
       button:
         text: Κλείστε ραντεβού
         url: "tel:+306993031175"   # ή 'mailto:v.alexiou@aibs.gr'
+        target_blank: false
       headings:
         about: Επαγγελματικό προφίλ
         education: Πτυχία - Ειδικότητα
