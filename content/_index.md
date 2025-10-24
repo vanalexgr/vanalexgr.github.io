@@ -48,7 +48,7 @@ sections:
     content:
       title: "🩺 Χειρουργικές Επεμβάσεις"
       items:
-        - icon: custom/open-surgery
+        - icon: custom/artery-flow
           name: "Ανοικτή αορτική χειρουργική"
         - icon: "custom/med.svg"
           name: "Ενδαγγειακή αποκατάσταση ανευρυσμάτων EVAR / TEVAR"
@@ -56,7 +56,7 @@ sections:
           name: "Καρωτιδική ενδαρτηρεκτομή"
         - icon: custom/med
           name: "Μηρο-ιγνυακή και περιφερική παράκαμψη"
-        - icon: custom/test
+        - icon: "custom/artery-flow"
           name: "Μοσχεύματα / Φίστουλες αιμοκάθαρσης"
         - icon: custom/graft
           name: "Αγγειοπλαστική αρτηριών"
