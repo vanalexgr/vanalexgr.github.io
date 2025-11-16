@@ -168,16 +168,18 @@ image:
 
 η έγκαιρη δημιουργία μιας **αρτηριοφλεβικής fistula** είναι κρίσιμη για την ασφάλεια και την ποιότητα της θεραπείας σας.
 
-{{< button url="/contact/" style="primary" size="lg" align="center" icon="stethoscope" >}}
+{{< button url="/#contact/" style="primary" size="lg" align="center" icon="stethoscope" >}}
 Κλείστε ραντεβού για εκτίμηση fistula
 {{< /button >}}
 
 &nbsp;
 
-{{< button url="/about/" style="secondary" align="center" >}}
+{{< button url="/experience" style="secondary" align="center" >}}
 Μάθετε περισσότερα για τον Αγγειοχειρουργό
 {{< /button >}}
 
 Στο **vascularized.gr** αξιολογούμε εξατομικευμένα κάθε περίπτωση, σε συνεργασία με τον θεράποντα νεφρολόγο, με στόχο:
 
-- τη σωστή επι
+- τη σωστή επιλογή τύπου και θέσης της πρόσβασης,  
+- τη μέγιστη δυνατή ασφάλεια,  
+- και τη μακροχρόνια, αξιόπιστη λειτουργία της AV fistula.
