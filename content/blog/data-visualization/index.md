@@ -1,237 +1,183 @@
 ---
-title: 📈 Communicate your results effectively with the best data visualizations
-summary: Use popular tools such as HuggingFace, Plotly, Mermaid, and data frames.
-date: 2023-10-25
+title: "Δημιουργία αρτηριοφλεβικής fistula Brescia–Cimino για αιμοκάθαρση (βίντεο)"
+summary: "Βήμα προς βήμα παρουσίαση της δημιουργίας αρτηριοφλεβικής fistula Brescia–Cimino στο αντιβράχιο, με έμφαση στη σωστή προεγχειρητική εκτίμηση και τη χειρουργική τεχνική."
+date: 2025-11-16
 authors:
   - admin
 tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
+  - Αιμοκάθαρση
+  - Αρτηριοφλεβική fistula
+  - Brescia–Cimino
+  - Αγγειοχειρουργική
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Image credit: **vascularized.gr**'
 ---
 
-Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.
+Η αρτηριοφλεβική fistula (AV fistula) τύπου **Brescia–Cimino** αποτελεί τη βασική και προτιμώμενη χειρουργική πρόσβαση για αιμοκάθαρση, σύμφωνα με τις περισσότερες διεθνείς κατευθυντήριες οδηγίες. Προσφέρει τη μεγαλύτερη δυνατή μακροχρόνια βατότητα και τον μικρότερο κίνδυνο λοιμώξεων σε σχέση με τους κεντρικούς φλεβικούς καθετήρες.
 
-Use popular tools such as Plotly, Mermaid, and data frames.
+Στο βίντεο που ακολουθεί παρουσιάζω αναλυτικά τη δημιουργία μιας Brescia–Cimino fistula στο αντιβράχιο, με έμφαση στις τεχνικές λεπτομέρειες που κάνουν τη διαφορά στην καθημερινή κλινική πράξη.
 
-## Embed Rich Content
+## Βίντεο: Δημιουργία Brescia–Cimino fistula στο αντιβράχιο
 
-HuggingFace Model
+{{< embed 
+    url="https://www.youtube.com/watch?v=THtAkoAdvC4" 
+    title="Δημιουργία αρτηριοφλεβικής fistula Brescia–Cimino στο αντιβράχιο" 
+    description="Βήμα προς βήμα χειρουργική παρουσίαση δημιουργίας AV fistula Brescia–Cimino στο αντιβράχιο για ασθενείς σε αιμοκάθαρση, από τον Αγγειοχειρουργό Βαγγέλη Αλεξίου." 
+>}}
 
-{{< embed platform="huggingface" resource="google/embeddinggemma-300m" type="model" >}}
+---
 
-HuggingFace Dataset
+## Τι είναι η Brescia–Cimino fistula;
 
-{{< embed platform="huggingface" resource="fka/awesome-chatgpt-prompts" type="dataset" >}}
+Η Brescia–Cimino fistula είναι μια **χειρουργική σύνδεση** μεταξύ:
 
-GitHub Repository
+- της **κερκιδικής αρτηρίας (radial artery)** και  
+- της **κεφαλικής φλέβας (cephalic vein)**
 
-{{< embed platform="github" resource="HugoBlox/hugo-blox-builder" type="repo" >}}
+στο επίπεδο του καρπού ή του περιφερικού αντιβραχίου.
 
-Custom embed with manual data
+Με τη σύνδεση αυτή, το αρτηριακό αίμα ρέει απευθείας στη φλέβα, αυξάνοντας τη ροή και την πίεση στο φλεβικό δίκτυο. Σταδιακά, η φλέβα «ωριμάζει», γίνεται παχύτερη και πιο ανθεκτική, ώστε να μπορεί να τρυπιέται με ασφάλεια για τις συνεδρίες αιμοκάθαρσης.
 
-{{< embed url="https://example.com" title="My Custom Resource" description="A great resource for learning" >}}
+---
 
-### Custom Images
+## Ποιοι ασθενείς χρειάζονται AV fistula;
 
-Embed beautiful images from any source with Hugo image processing (Unsplash, custom URLs, etc.):
+Η αρτηριοφλεβική fistula ενδείκνυται για ασθενείς που:
 
-{{< embed url="https://example.com" title="Data Visualization Guide" description="Beautiful data visualization workspace" image="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=800&h=600&auto=format&fit=crop" width="800" height="600" quality="90" >}}
+- βρίσκονται ήδη σε πρόγραμμα **χρόνιας αιμοκάθαρσης**, ή  
+- αναμένεται να ξεκινήσουν αιμοκάθαρση στο άμεσο μέλλον,  
+- και διαθέτουν **κατάλληλες φλέβες** στο άνω άκρο.
 
-You can also add images to any platform embed:
+Βασικός στόχος είναι να **αποφύγουμε τη μακροχρόνια χρήση κεντρικών φλεβικών καθετήρων**, οι οποίοι συνδέονται με υψηλότερο κίνδυνο λοιμώξεων, θρομβώσεων και στενώσεων μεγάλων φλεβών.
 
-{{< embed platform="github" resource="plotly/plotly.py" type="repo" image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&auto=format&fit=crop" width="600" height="400" >}}
+---
 
-## Charts
+## Προεγχειρητικός έλεγχος – Το θεμέλιο μιας καλής fistula
 
-Hugo Blox supports the popular [Plotly](https://plot.ly/) format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!
+Πριν την επέμβαση, πραγματοποιείται:
 
-Save your Plotly JSON in your page folder, for example `line-chart.json`, and then add the `{{</* chart data="line-chart" */>}}` shortcode where you would like the chart to appear.
+- **Κλινική εξέταση** των αρτηριών και φλεβών του άνω άκρου  
+- **Υπερηχογράφημα (duplex)** για:
+  - διάμετρο και ποιότητα των φλεβών  
+  - αξιολόγηση της αρτηριακής ροής  
+  - αποκλεισμό θρομβώσεων ή στενώσεων
 
-Demo:
+Ο σωστός προεγχειρητικός σχεδιασμός είναι ίσως το πιο κρίσιμο βήμα. Η επιλογή της θέσης και των αγγείων με βάση αντικειμενικά κριτήρια αυξάνει σημαντικά την πιθανότητα επιτυχούς ωρίμανσης και μακροχρόνιας λειτουργίας της fistula.
 
-{{< chart data="line-chart" >}}
+---
 
-You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
+## Χειρουργική τεχνική – Τι δείχνει το βίντεο
 
-## Diagrams
+Στο βίντεο παρουσιάζονται τα βασικά στάδια δημιουργίας Brescia–Cimino fistula:
 
-Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
+### 1. Θέση ασθενούς και προετοιμασία
 
-An example **flowchart**:
+Ο ασθενής τοποθετείται σε ύπτια θέση, με το άνω άκρο απλωμένο. Γίνεται σχολαστική αντισηψία του άκρου και αποστειρωμένη κάλυψη του χειρουργικού πεδίου.
 
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
+### 2. Δερματική τομή και αναγνώριση αγγείων
 
-renders as
+Μέσα από μια μικρή τομή στην περιοχή του καρπού/αντιβραχίου:
 
-```mermaid
-graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
+- αναγνωρίζονται η **κερκιδική αρτηρία** και  
+- η **κεφαλική φλέβα**.  
 
-An example **sequence diagram**:
+Η παρασκευή γίνεται με προσοχή, ώστε να αποφευχθεί ο τραυματισμός του αγγειακού τοιχώματος.
 
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
+### 3. Παρασκευή και προετοιμασία της φλέβας
 
-renders as
+Η κεφαλική φλέβα απομονώνεται, ελέγχεται η διάμετρός της και διατέμνεται. Το περιφερικό άκρο της προετοιμάζεται (spatulation), ώστε να επιτευχθεί ομαλή και επαρκούς διαμέτρου αναστόμωση με την αρτηρία.
 
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
+### 4. Αρτηριοφλεβική αναστόμωση
 
-An example **class diagram**:
+Στην κερκιδική αρτηρία πραγματοποιείται μια μικρή αρτηριότομη. Το άκρο της φλέβας συρράπτεται στην αρτηρία με λεπτά αγγειακά ράμματα, υπό μεγέθυνση.  
 
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    Class03 *-- Class04
-    Class05 o-- Class06
-    Class07 .. Class08
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    Class08 <--> C2: Cool label
-    ```
+Στο βίντεο φαίνονται αναλυτικά:
 
-renders as
+- η τοποθέτηση των ραμμάτων,  
+- η αποφυγή στρέψης της φλέβας,  
+- και η διατήρηση επαρκούς αυλού χωρίς στένωση.
 
-```mermaid
-classDiagram
-Class01 <|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 <--> C2: Cool label
-```
+### 5. Έλεγχος ροής και «θρόισμα»
 
-An example **state diagram**:
+Μετά την ολοκλήρωση της συρραφής, αφαιρούνται οι λαβίδες και ελέγχεται:
 
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
+- η **αρτηριοφλεβική ροή**,  
+- η παρουσία **θροίσματος (thrill)** στην ψηλάφηση,  
+- η καλή αιμάτωση του άκρου.
 
-renders as
+### 6. Αιμόσταση και σύγκλειση τραύματος
 
-```mermaid
-stateDiagram
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
-```
+Ακολουθεί προσεκτική αιμόσταση και σύγκλειση των ιστών σε στρώματα, με στόχο τόσο την ασφάλεια όσο και το αισθητικό αποτέλεσμα στο δέρμα.
 
-## Data Frames
+---
 
-Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
+## Τι να περιμένει ο ασθενής μετά την επέμβαση
 
-```go
-{{</* table path="results.csv" header="true" caption="Table 1: My results" */>}}
-```
+Τις πρώτες ημέρες:
 
-renders as
+- Μπορεί να υπάρχει **ήπιος πόνος ή ενόχληση**, που αντιμετωπίζεται με απλά αναλγητικά.  
+- Ο ασθενής εκπαιδεύεται να **ψηλαφά καθημερινά το «θρόισμα»** της fistula.  
+- Αποφεύγονται μετρήσεις πίεσης και αιμοληψίες από το χέρι της fistula.
 
-{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
+Η fistula χρειάζεται συνήθως **4–8 εβδομάδες** για να ωριμάσει. Στο διάστημα αυτό:
 
-## Interactive Buttons
+- παρακολουθείται κλινικά και, όπου χρειάζεται, με **υπερηχογράφημα**,  
+- ο νεφρολόγος και ο αγγειοχειρουργός συντονίζουν το πλάνο έναρξης ή συνέχισης της αιμοκάθαρσης από τη νέα πρόσβαση.
 
-Add engaging call-to-action buttons to your data visualization posts:
+---
 
-### Basic Buttons
+## Πιθανές επιπλοκές – Τι προσπαθούμε να προλάβουμε
 
-{{< button url="/" >}}Contact Us{{< /button >}}
+Οι σημαντικότερες πιθανές επιπλοκές είναι:
+
+- **Θρόμβωση** (βούλωμα) της fistula  
+- **Ανεπαρκής ροή** ή αποτυχία ωρίμανσης  
+- **Αιμάτωμα ή αιμορραγία** στο χειρουργικό πεδίο  
+- Σπάνια, **σύνδρομο κλοπής (steal)**, με συμπτώματα μειωμένης αιμάτωσης στο χέρι (πόνος, ψυχρότητα, ωχρότητα)
+
+Με σωστή επιλογή ασθενούς, προσεκτική τεχνική και τακτική παρακολούθηση, επιδιώκουμε να ελαχιστοποιήσουμε αυτούς τους κινδύνους και να εξασφαλίσουμε μια fistula που θα λειτουργεί αξιόπιστα για μεγάλο χρονικό διάστημα.
+
+---
+
+## Γιατί έχει σημασία η εμπειρία της ομάδας
+
+Παρότι η δημιουργία AV fistula θεωρείται «μικρή» επέμβαση, στην πράξη είναι μια **λεπτή αγγειοχειρουργική πράξη υψηλής σημασίας** για την ποιότητα ζωής του ασθενούς.
+
+Η εμπειρία στην:
+
+- επιλογή της κατάλληλης θέσης,  
+- χρήση υπερήχων για χαρτογράφηση αγγείων,  
+- χειρισμό λεπτών αγγειακών ραμμάτων,  
+- και μακροχρόνια παρακολούθηση των ασθενών σε αιμοκάθαρση,
+
+παίζει καθοριστικό ρόλο στο τελικό αποτέλεσμα.
+
+Το συγκεκριμένο βίντεο έχει στόχο:
+
+- να ενημερώσει ασθενείς και οικογένειες σχετικά με τη διαδικασία, και  
+- να αποτελέσει εκπαιδευτικό εργαλείο για νέους γιατρούς και ειδικευόμενους στην αγγειοχειρουργική και τη νεφρολογία.
+
+---
+
+## Αν είστε σε αιμοκάθαρση ή πρόκειται να ξεκινήσετε
+
+Εάν:
+
+- βρίσκεστε ήδη σε αιμοκάθαρση με κεντρικό καθετήρα, ή  
+- ο νεφρολόγος σας σάς έχει ενημερώσει ότι πλησιάζετε στο σημείο να χρειαστείτε αιμοκάθαρση,
+
+η έγκαιρη δημιουργία μιας **αρτηριοφλεβικής fistula** είναι κρίσιμη για την ασφάλεια και την ποιότητα της θεραπείας σας.
+
+{{< button url="/contact/" style="primary" size="lg" align="center" icon="stethoscope" >}}
+Κλείστε ραντεβού για εκτίμηση fistula
+{{< /button >}}
 
 &nbsp;
 
-{{< button url="https://plotly.com/python/" new_tab="true" style="secondary" >}}Learn Plotly{{< /button >}}
+{{< button url="/about/" style="secondary" align="center" >}}
+Μάθετε περισσότερα για τον Αγγειοχειρουργό
+{{< /button >}}
 
-```go-html-template
-{{</* button url="/" */>}}Contact Us{{</* /button */>}}
+Στο **vascularized.gr** αξιολογούμε εξατομικευμένα κάθε περίπτωση, σε συνεργασία με τον θεράποντα νεφρολόγο, με στόχο:
 
-{{</* button url="https://plotly.com/python/" new_tab="true" style="secondary" */>}}Learn Plotly{{</* /button */>}}
-```
-
-### Styled Buttons for Data Actions
-
-{{< button url="#" style="primary" size="lg" align="center" icon="chart-bar" >}}View Dashboard{{< /button >}}
-
-&nbsp;
-
-{{< button url="/data/results.csv" style="outline" icon="document-arrow-down" >}}Download Data{{< /button >}}
-
-&nbsp;
-
-{{< button url="https://github.com/HugoBlox" new_tab="true" style="ghost" icon="arrow-top-right-on-square" icon_position="right" >}}View Source Code{{< /button >}}
-
-```go-html-template
-{{</* button url="#" style="primary" size="lg" align="center" icon="chart-bar" */>}}View Dashboard{{</* /button */>}}
-
-{{</* button url="/data/results.csv" style="outline" icon="document-arrow-down" */>}}Download Data{{</* /button */>}}
-
-{{</* button url="https://github.com/HugoBlox" new_tab="true" style="ghost" icon="arrow-top-right-on-square" icon_position="right" */>}}View Source Code{{</* /button */>}}
-```
-
-### Multiple Aligned Buttons
-
-{{< button url="https://jupyter.org/" new_tab="true" style="secondary" rounded="full" align="center" >}}Try Jupyter{{< /button >}}
-
-&nbsp;
-
-{{< button url="https://colab.research.google.com/" new_tab="true" style="primary" rounded="full" align="center" icon="rocket-launch" >}}Open in Colab{{< /button >}}
-
-```go-html-template
-{{</* button url="https://jupyter.org/" new_tab="true" style="secondary" rounded="full" align="center" */>}}Try Jupyter{{</* /button */>}}
-
-{{</* button url="https://colab.research.google.com/" new_tab="true" style="primary" rounded="full" align="center" icon="rocket-launch" */>}}Open in Colab{{</* /button */>}}
-```
-
-## Did you find this page helpful? Consider sharing it 🙌
+- τη σωστή επι
