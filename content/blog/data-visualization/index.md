@@ -19,11 +19,7 @@ image:
 
 ## Βίντεο: Δημιουργία Brescia–Cimino fistula στο αντιβράχιο
 
-{{< embed 
-    url="https://www.youtube.com/watch?v=THtAkoAdvC4" 
-    title="Δημιουργία αρτηριοφλεβικής fistula Brescia–Cimino στο αντιβράχιο" 
-    description="Βήμα προς βήμα χειρουργική παρουσίαση δημιουργίας AV fistula Brescia–Cimino στο αντιβράχιο για ασθενείς σε αιμοκάθαρση, από τον Αγγειοχειρουργό Βαγγέλη Αλεξίου." 
->}}
+{{< youtube "THtAkoAdvC4" >}}
 
 ---
 
