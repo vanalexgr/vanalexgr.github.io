@@ -1,32 +1,60 @@
-{{/* Global Override for Icon Handling */}}
-{{- $name := .name -}}
-{{- $pack := .pack | default "fas" -}}
-{{- $attributes := .attributes | default "" | safeHTMLAttr -}}
+{{/* Return the requested SVG icon */}}
+{{/* Search for the icon in the Hugo Blox Builder icon library, falling back to user's icon library */}}
+{{/* Fixed version: corrects $icon.Content bug */}}
 
-{{- if eq $pack "custom" -}}
-  {{/* Logic for Custom SVGs in assets/media/icons/custom/ */}}
-  {{- $svg_path := printf "media/icons/custom/%s.svg" $name -}}
-  {{- $res := resources.Get $svg_path -}}
-  {{- with $res -}}
-    {{/* Render SVG inline so it can be styled */}}
-    <span class="svg-icon-custom inline-flex items-center justify-center shrink-0" {{ $attributes }}>
-      {{- .Content | safeHTML -}}
-    </span>
-  {{- else -}}
-    {{/* Fallback if file missing */}}
-    <span title="Missing Icon: {{ $name }}" {{ $attributes }}>⚠️</span>
-    {{- warnf "Custom icon not found at: %s" $svg_path -}}
-  {{- end -}}
+{{ $dirFile := path.Split .name }}
+{{ $pack := .pack | default (strings.Replace $dirFile.Dir "/" "") | default "hero" }}
+{{ $name := $dirFile.File }}
 
-{{- else if eq $pack "emoji" -}}
-  {{/* Logic for Emojis */}}
-  <span {{ $attributes }}>{{- $name | emojify -}}</span>
+{{- $icon_pack := index site.Data.icons $pack -}}
+{{- $icon := index (index $icon_pack "icons") $name -}}
 
-{{- else -}}
-  {{/* Logic for Standard Icons (FontAwesome, Academicons) */}}
-  {{- $prefix := "fa" -}}
-  {{- if eq $pack "ai" -}}
-    {{- $prefix = "ai" -}}
-  {{- end -}}
-  <i class="{{ $pack }} {{ $prefix }}-{{ $name }}" {{ $attributes }}></i>
-{{- end -}}
+{{ if $icon }}
+  {{ if in (slice "hb" "brands") $pack }}
+    {{/* Pass */}}
+  {{ else }}
+    {{ $icon_body := index $icon "body" }}
+    {{ $icon_size := index $icon_pack "height" }}
+    {{ $icon = printf `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %s %s">%s</svg>` (cast.ToString $icon_size) (cast.ToString $icon_size) $icon_body }}
+  {{ end }}
+{{ else }}
+  {{ with index (index site.Data.icons.hb "icons") $name -}}
+    {{ $icon = . }}
+  {{ else }}
+    {{- $prefix := printf "media/icons/%s/" $pack -}}
+    {{- $icon_path := printf "%s%s.svg" $prefix $name -}}
+    {{- if not (fileExists (printf "assets/%s" $icon_path)) -}}
+      {{ $pageRef := "unknown location" }}
+      {{ if .Page }}
+        {{ if .Page.File }}
+          {{ if .Page.File.Path }}
+            {{ $pageRef = .Page.File.Path }}
+          {{ else if .Page.RelPermalink }}
+            {{ $pageRef = .Page.RelPermalink }}
+          {{ end }}
+        {{ else if .Page.RelPermalink }}
+          {{ $pageRef = .Page.RelPermalink }}
+        {{ end }}
+      {{ end }}
+      {{ partial "functions/logger" (dict
+            "page" .Page
+            "level" "warn"
+            "id" (printf "missing-icon-%s-%s" $pack $name)
+            "message" (printf "The icon `%s` was not found in `assets/media/icons/%s/`. Referenced in: %s" $name $pack $pageRef)
+          )
+      }}
+    {{- end -}}
+    {{- $iconRes := resources.Get $icon_path -}}
+    {{ if $iconRes }}
+      {{ $icon = $iconRes.Content }}
+    {{ else }}
+      {{ $icon = index (index site.Data.icons.brands "icons") "hugo" }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if .attributes }}
+  {{ $icon = replaceRE "<svg" (printf "<svg %s" .attributes) $icon }}
+{{ end }}
+
+{{- return ($icon | safeHTML) -}}

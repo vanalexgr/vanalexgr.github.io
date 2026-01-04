@@ -30,7 +30,7 @@ hugo --minify
 Output will be in the `public/` directory.
 
 ## Custom Overrides
-- `layouts/partials/functions/get_icon.html` - **Global icon handler** that enables custom SVG icons site-wide. Use `icon_pack: custom` in any block.
+- `layouts/partials/functions/get_icon.html` - **Fixed icon handler** that corrects a bug in the theme's SVG loading. Custom icons now work site-wide using `custom/icon-name` format.
 - `layouts/partials/hbx/blocks/resume-skills/block.html` - Custom override for skills block with custom icon support
 
 ## Custom Icons
