@@ -29,9 +29,9 @@ hugo --minify
 ```
 Output will be in the `public/` directory.
 
-## Custom Block Overrides
-- `layouts/partials/hbx/blocks/resume-skills/block.html` - Custom override for skills block that supports custom SVG icons from `assets/media/icons/custom/`
-- `layouts/partials/functions/get_icon_custom.html` - Helper partial for loading custom SVG icons
+## Custom Overrides
+- `layouts/partials/functions/get_icon.html` - **Global icon handler** that enables custom SVG icons site-wide. Use `icon_pack: custom` in any block.
+- `layouts/partials/hbx/blocks/resume-skills/block.html` - Custom override for skills block with custom icon support
 
 ## Custom Icons
 Custom SVG icons are stored in `assets/media/icons/custom/`. To use them in skills, set `icon_pack: custom` in the YAML frontmatter.

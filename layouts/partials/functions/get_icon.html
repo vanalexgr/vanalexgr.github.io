@@ -1,0 +1,32 @@
+{{/* Global Override for Icon Handling */}}
+{{- $name := .name -}}
+{{- $pack := .pack | default "fas" -}}
+{{- $attributes := .attributes | default "" | safeHTMLAttr -}}
+
+{{- if eq $pack "custom" -}}
+  {{/* Logic for Custom SVGs in assets/media/icons/custom/ */}}
+  {{- $svg_path := printf "media/icons/custom/%s.svg" $name -}}
+  {{- $res := resources.Get $svg_path -}}
+  {{- with $res -}}
+    {{/* Render SVG inline so it can be styled */}}
+    <span class="svg-icon-custom inline-flex items-center justify-center shrink-0" {{ $attributes }}>
+      {{- .Content | safeHTML -}}
+    </span>
+  {{- else -}}
+    {{/* Fallback if file missing */}}
+    <span title="Missing Icon: {{ $name }}" {{ $attributes }}>⚠️</span>
+    {{- warnf "Custom icon not found at: %s" $svg_path -}}
+  {{- end -}}
+
+{{- else if eq $pack "emoji" -}}
+  {{/* Logic for Emojis */}}
+  <span {{ $attributes }}>{{- $name | emojify -}}</span>
+
+{{- else -}}
+  {{/* Logic for Standard Icons (FontAwesome, Academicons) */}}
+  {{- $prefix := "fa" -}}
+  {{- if eq $pack "ai" -}}
+    {{- $prefix = "ai" -}}
+  {{- end -}}
+  <i class="{{ $pack }} {{ $prefix }}-{{ $name }}" {{ $attributes }}></i>
+{{- end -}}
