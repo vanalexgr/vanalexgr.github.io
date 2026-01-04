@@ -29,7 +29,18 @@ hugo --minify
 ```
 Output will be in the `public/` directory.
 
+## Custom Block Overrides
+- `layouts/partials/hbx/blocks/resume-skills/block.html` - Custom override for skills block that supports custom SVG icons from `assets/media/icons/custom/`
+- `layouts/partials/functions/get_icon_custom.html` - Helper partial for loading custom SVG icons
+
+## Custom Icons
+Custom SVG icons are stored in `assets/media/icons/custom/`. To use them in skills, set `icon_pack: custom` in the YAML frontmatter.
+
 ## Recent Changes
 - 2026-01-04: Configured for Replit environment
   - Changed baseURL to `/` for development
   - Set up Hugo dev server workflow on port 5000
+- 2026-01-04: Added custom icon support for skills section
+  - Created custom resume-skills block override
+  - Changed experience.md to use `resume-skills` block
+  - Updated admin/_index.md to use `skills:` with `icon_pack: custom`

@@ -105,36 +105,44 @@ work:
     date_start: "2006-09-01"
     date_end: "2008-10-31"
 
-features:
+skills:
   - name: "Αγγειακή χειρουργική (ανοιχτές επεμβάσεις)"
     items:
-      - name: "ανοιχτη αποκατασταση ανευρυσματος, αορτοδιμηριαια παρακαμψη"
+      - name: "Ανοιχτή αποκατάσταση ανευρύσματος, αορτομηριαία παράκαμψη"
         percent: 90
-        icon: open-surgery.svg
-      - name: "ενδαρτηρεκτομη καρωτιδας"
+        icon: open-surgery
+        icon_pack: custom
+      - name: "Ενδαρτηρεκτομή καρωτίδας"
         percent: 85
         icon: stenosis
-      - name: "μηροιγνυακες και περιφερικες παρακαμψεις"
+        icon_pack: custom
+      - name: "Μηροιγνυακές και περιφερικές παρακάμψεις"
         percent: 90
-        icon: grafts.svg
-      - name: "φιστουλες και μοσχευματα αιμοκαθαρσης"
+        icon: graft
+        icon_pack: custom
+      - name: "Φίστουλες και μοσχεύματα αιμοκάθαρσης"
         percent: 80
-        icon: dialysis.svg
+        icon: dialysis
+        icon_pack: custom
 
   - name: "Ενδαγγειακή χειρουργική (ελάχιστα επεμβατική)"
     items:
-      - name: "EVAR - TEVAR αποκατασταση κοιλιακων και θωρακικων ανευρυσματων με χρηση stents"
+      - name: "EVAR - TEVAR αποκατάσταση ανευρυσμάτων με stents"
         percent: 90
-        icon: hero/evar
-      - name: "stent καρωτιδας"
+        icon: evar
+        icon_pack: custom
+      - name: "Stent καρωτίδας"
         percent: 85
         icon: heart
-      - name: "περιφερικη αρτηριακη νοσος - αγγειοπλαστικη και stenting"
+        icon_pack: fas
+      - name: "Περιφερική αρτηριακή νόσος - Αγγειοπλαστική και stenting"
         percent: 90
-        icon: hero/artery-flow.svg
-      - name: "αγγειοπλαστικη φιστουλας, τοποθετηση κεντρικου καθετηρα αιμοκαθαρσης"
+        icon: artery-flow
+        icon_pack: custom
+      - name: "Αγγειοπλαστική φίστουλας, κεντρικοί καθετήρες"
         percent: 80
-        icon: cvc.svg
+        icon: cvc
+        icon_pack: custom
 
 languages:
   - name: "Αγγλικά (Proficiency)"

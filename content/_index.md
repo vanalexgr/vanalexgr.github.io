@@ -50,7 +50,7 @@ sections:
       items:
         - icon: custom/artery-flow
           name: "Ανοικτή αορτική χειρουργική"
-        - icon: "custom/med.svg"
+        - icon: "custom/med"
           name: "Ενδαγγειακή αποκατάσταση ανευρυσμάτων EVAR / TEVAR"
         - icon: heart
           name: "Καρωτιδική ενδαρτηρεκτομή"

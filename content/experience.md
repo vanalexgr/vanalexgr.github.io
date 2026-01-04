@@ -16,7 +16,7 @@ sections:
       is_education_first: false      # false: πρώτα Εμπειρία, μετά Εκπαίδευση (βάλε true αν θες το ανάποδο)
       show_title: true               # Εμφάνιση τίτλου ενότητας
 
-  - block: features
+  - block: resume-skills
     content:
       title: 'Χειρουργικά Ενδιαφέροντα'
       username: admin
