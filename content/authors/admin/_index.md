@@ -5,7 +5,7 @@ first_name: "Ευάγγελος"
 last_name: "Αλεξίου"
 pronouns: ""
 status:
-  icon: "⚕️"
+  icon: "evla"
 superuser: true
 highlight_name: false
 role: "Αγγειοχειρουργός"
@@ -122,7 +122,7 @@ skills:
         icon_pack: custom
       - name: "Φίστουλες και μοσχεύματα αιμοκάθαρσης"
         percent: 80
-        icon: dialysis
+        icon: avf
         icon_pack: custom
 
   - name: "Ενδαγγειακή χειρουργική (ελάχιστα επεμβατική)"
@@ -133,11 +133,11 @@ skills:
         icon_pack: custom
       - name: "Stent καρωτίδας"
         percent: 85
-        icon: heart
+        icon: stent
         icon_pack: fas
       - name: "Περιφερική αρτηριακή νόσος - Αγγειοπλαστική και stenting"
         percent: 90
-        icon: artery-flow
+        icon: peripheral
         icon_pack: custom
       - name: "Αγγειοπλαστική φίστουλας, κεντρικοί καθετήρες"
         percent: 80
