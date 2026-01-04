@@ -6,7 +6,7 @@
 # Website name
 title: Ευάγγελος Αλεξίου - Αγγειοχειρουργός 
 # Website URL
-baseURL: 'https://vascularized.gr/'
+baseURL: '/'
 
 ############################
 ## LANGUAGE
