@@ -5,7 +5,7 @@ first_name: "Ευάγγελος"
 last_name: "Αλεξίου"
 pronouns: ""
 status:
-  icon: "evla"
+  icon: "🫀"
 superuser: true
 highlight_name: false
 role: "Αγγειοχειρουργός"
@@ -134,7 +134,7 @@ skills:
       - name: "Stent καρωτίδας"
         percent: 85
         icon: stent
-        icon_pack: fas
+        icon_pack: custom
       - name: "Περιφερική αρτηριακή νόσος - Αγγειοπλαστική και stenting"
         percent: 90
         icon: peripheral
