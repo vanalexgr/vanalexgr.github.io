@@ -14,11 +14,11 @@
 
 <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
 
-  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white normal-case">
     {{ $block.content.title | markdownify | emojify }}
   </div>
 
-  {{ with $block.content.text }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+  {{ with $block.content.text }}<p class="normal-case">{{ . | markdownify | emojify }}</p>{{ end }}
 </div>
 
 {{ $columns := $block.design.columns | default 2 }}
@@ -28,9 +28,9 @@
   {{ $color := .color | default "" }}
   {{ $color_border := .color_border | default "" }}
   <div class="w-full">
-    <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">
+    <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white normal-case">
       {{ .name | markdownify | emojify }}
-      {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+      {{ with .description }}<p class="normal-case">{{ . | markdownify | emojify }}</p>{{ end }}
     </div>
     {{ range .items }}
     {{ $pack := .icon_pack | default "fas" }}
@@ -39,7 +39,8 @@
     <div class="skills-content">
 
       {{ if $icon }}
-      <span class="skills-icon inline-block" style="width:1.25em;height:1.25em;display:inline-flex;align-items:center;">
+      {{/* ΑΛΛΑΓΗ ΜΕΓΕΘΟΥΣ ΕΙΚΟΝΙΔΙΩΝ ΕΔΩ: Αλλάξτε το width/height (π.χ. 2em ή 32px) */}}
+      <span class="skills-icon inline-block" style="width:2.5em;height:2.5em;display:inline-flex;align-items:center;margin-right:0.5em;">
         {{- if eq $pack "custom" -}}
           {{- $iconPath := printf "media/icons/custom/%s.svg" $icon -}}
           {{- $iconRes := resources.Get $iconPath -}}
@@ -49,14 +50,14 @@
             <span title="{{ $icon }}">[?]</span>
           {{- end -}}
         {{- else -}}
-          {{ partial "functions/get_icon" (dict "name" $icon "attributes" "style=\"height: 1em;\"") }}
+          {{ partial "functions/get_icon" (dict "name" $icon "attributes" "style=\"height: 100%; width: 100%;\"") }}
         {{- end -}}
       </span>
       {{ end }}
 
-      <span class="skills-name text-gray-700 dark:text-gray-300">
+      <span class="skills-name text-gray-700 dark:text-gray-300 normal-case">
         {{ .name | markdownify | emojify }}
-        {{ with .description }}<p class="skills-description">{{ . | markdownify | emojify }}</p>{{ end }}
+        {{ with .description }}<p class="skills-description normal-case">{{ . | markdownify | emojify }}</p>{{ end }}
       </span>
       {{ if .percent | and $show_show_skill_percentage }}
       <div class="skills-wrapper" {{with $color_border}}{{ (printf "style=\"border-color: %s\"" .) | safeHTMLAttr }}{{end}}>
