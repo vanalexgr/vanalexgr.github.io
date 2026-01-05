@@ -1,4 +1,4 @@
-{{/* Hugo Blox: Features Block Override - Maximize Icons */}}
+{{/* Hugo Blox: Features Block Override - Maximize Icons & Circle */}}
 {{ $block := .wcBlock }}
 {{ $page := .wcPage }}
 
@@ -9,7 +9,7 @@
     {{ $block.content.title | markdownify | emojify }}
   </div>
 
-  {{/* Υπότιτλος/Κείμενο */}}
+  {{/* Υπότιτλος */}}
   {{ with $block.content.text }}
   <p class="text-center text-gray-700 dark:text-gray-300 mb-8" style="text-transform: none !important;">
     {{ . | markdownify | emojify }}
@@ -18,7 +18,6 @@
   
 </div>
 
-{{/* Grid Layout */}}
 <div class="mx-auto max-w-7xl px-6 lg:px-8">
   <div class="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-none">
     <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
@@ -28,25 +27,26 @@
       {{ $icon := .icon }}
       
       <div class="flex flex-col items-center text-center">
-        <div class="mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-indigo-50 dark:bg-indigo-900 p-2"> 
-          {{/* p-2: Ελάχιστο padding για να γεμίζει ο κύκλος */}}
+        
+        {{/* ΚΥΚΛΟΣ: h-32 w-32 (Μεγαλύτερος), p-0 (Καθόλου padding), overflow-hidden */}}
+        <div class="mb-6 flex h-32 w-32 items-center justify-center rounded-full bg-indigo-50 dark:bg-indigo-900 p-0 overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"> 
           
           {{ if $icon }}
             {{ if eq $pack "custom" }}
-              {{/* Custom SVG Logic - 100% μέγεθος */}}
+              {{/* Custom SVG - 100% Width/Height */}}
               <span class="inline-flex items-center justify-center" style="width:100%; height:100%;">
                 {{- $iconPath := printf "media/icons/custom/%s.svg" $icon -}}
                 {{- $iconRes := resources.Get $iconPath -}}
                 {{- with $iconRes -}}
-                  {{/* Εφαρμογή width/height 100% στο ίδιο το SVG */}}
-                  {{ .Content | replaceRE "<svg" "<svg width=\"100%\" height=\"100%\"" | safeHTML }}
+                  {{/* Force SVG to fill container */}}
+                  {{ .Content | replaceRE "<svg" "<svg width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\"" | safeHTML }}
                 {{- else -}}
-                  <span title="{{ $icon }}">?</span>
+                  <span title="{{ $icon }}" class="text-2xl">?</span>
                 {{- end -}}
               </span>
             {{ else }}
               {{/* Standard Icons */}}
-              <div style="font-size: 3rem;">
+              <div style="font-size: 4rem;">
                 {{ partial "functions/get_icon" (dict "name" $icon "pack" $pack) }}
               </div>
             {{ end }}
