@@ -109,44 +109,34 @@ skills:
   - name: "Αγγειακή χειρουργική (ανοιχτές επεμβάσεις)"
     items:
       - name: "Ανοιχτή αποκατάσταση ανευρύσματος, αορτομηριαία παράκαμψη"
-        percent: 90
         icon: open-surgery
         icon_pack: custom
       - name: "Ενδαρτηρεκτομή καρωτίδας"
-        percent: 85
         icon: stenosis
         icon_pack: custom
       - name: "Μηροιγνυακές και περιφερικές παρακάμψεις"
-        percent: 90
         icon: graft
         icon_pack: custom
       - name: "Φίστουλες και μοσχεύματα αιμοκάθαρσης"
-        percent: 80
         icon: avf
         icon_pack: custom
 
   - name: "Ενδαγγειακή χειρουργική (ελάχιστα επεμβατική)"
     items:
       - name: "EVAR - TEVAR αποκατάσταση ανευρυσμάτων με stents"
-        percent: 90
         icon: evar
         icon_pack: custom
       - name: "Stent καρωτίδας"
-        percent: 85
         icon: stent
         icon_pack: custom
       - name: "Περιφερική αρτηριακή νόσος - Αγγειοπλαστική και stenting"
-        percent: 90
         icon: peripheral
         icon_pack: custom
       - name: "Αγγειοπλαστική φίστουλας, κεντρικοί καθετήρες"
-        percent: 80
         icon: cvc
         icon_pack: custom
 
 languages:
   - name: "Αγγλικά (Proficiency)"
-    percent: 100
   - name: "Γαλλικά (Sorbonne II)"
-    percent: 100
 ---
