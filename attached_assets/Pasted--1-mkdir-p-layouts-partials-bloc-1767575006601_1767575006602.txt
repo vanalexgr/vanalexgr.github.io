@@ -1,12 +1,18 @@
+# 1. Δημιουργία των φακέλων (και για το παλιό και για το νέο σύστημα)
+mkdir -p layouts/partials/blocks
+mkdir -p layouts/partials/hbx/blocks/features
+
+# 2. Ορισμός του κώδικα για τα ΤΕΡΑΣΤΙΑ εικονίδια
+cat <<EOF > big-icons-code.html
 {{/* Force Huge Icons Override */}}
-{{ $block := .wcBlock }}
-{{ $page := .wcPage }}
+{{ \$block := .wcBlock }}
+{{ \$page := .wcPage }}
 
 <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
   <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white text-center" style="text-transform: none !important;">
-    {{ $block.content.title | markdownify | emojify }}
+    {{ \$block.content.title | markdownify | emojify }}
   </div>
-  {{ with $block.content.text }}
+  {{ with \$block.content.text }}
   <p class="text-center text-gray-700 dark:text-gray-300 mb-8" style="text-transform: none !important;">
     {{ . | markdownify | emojify }}
   </p>
@@ -16,31 +22,31 @@
 <div class="mx-auto max-w-7xl px-6 lg:px-8">
   <div class="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-none">
     <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-      {{ range $block.content.items }}
-      {{ $pack := .icon_pack | default "fas" }}
-      {{ $icon := .icon }}
+      {{ range \$block.content.items }}
+      {{ \$pack := .icon_pack | default "fas" }}
+      {{ \$icon := .icon }}
       
       <div class="flex flex-col items-center text-center">
         
         {{/* ΚΥΚΛΟΣ: h-40 w-40 (Πολύ μεγάλος ~160px), p-0 (Χωρίς κενό) */}}
         <div class="mb-6 flex h-40 w-40 items-center justify-center rounded-full bg-indigo-50 dark:bg-indigo-900 p-0 overflow-hidden shadow-xl transition-transform hover:scale-110 duration-300 border-4 border-indigo-100 dark:border-indigo-800">
           
-          {{ if $icon }}
-            {{ if eq $pack "custom" }}
+          {{ if \$icon }}
+            {{ if eq \$pack "custom" }}
               {{/* Custom SVG - 100% Size */}}
               <span class="inline-flex items-center justify-center" style="width:100%; height:100%;">
-                {{- $iconPath := printf "media/icons/custom/%s.svg" $icon -}}
-                {{- $iconRes := resources.Get $iconPath -}}
-                {{- with $iconRes -}}
+                {{- \$iconPath := printf "media/icons/custom/%s.svg" \$icon -}}
+                {{- \$iconRes := resources.Get \$iconPath -}}
+                {{- with \$iconRes -}}
                   {{ .Content | replaceRE "<svg" "<svg width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\"" | safeHTML }}
                 {{- else -}}
-                  <span title="{{ $icon }}" class="text-4xl">?</span>
+                  <span title="{{ \$icon }}" class="text-4xl">?</span>
                 {{- end -}}
               </span>
             {{ else }}
               {{/* Standard Icons */}}
               <div style="font-size: 5rem;">
-                {{ partial "functions/get_icon" (dict "name" $icon "pack" $pack) }}
+                {{ partial "functions/get_icon" (dict "name" \$icon "pack" \$pack) }}
               </div>
             {{ end }}
           {{ end }}
@@ -60,3 +66,12 @@
     </dl>
   </div>
 </div>
+EOF
+
+# 3. Αντιγραφή του αρχείου σε ΟΛΕΣ τις πιθανές διαδρομές
+cp big-icons-code.html layouts/partials/blocks/features.html
+cp big-icons-code.html layouts/partials/hbx/blocks/features/block.html
+
+# 4. Καθαρισμός
+rm big-icons-code.html
+echo "✅ ΕΤΟΙΜΟ! Τα αρχεία δημιουργήθηκαν παντού."
