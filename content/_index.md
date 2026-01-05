@@ -46,19 +46,19 @@ sections:
   # ↓↓↓ ΝΕΟ: Features block με custom SVG από assets/media/icons/custom/*.svg
   - block: features
     content:
-      title: "🩺 Χειρουργικές Επεμβάσεις"
+      title: "🥼 Χειρουργικές Επεμβάσεις"
       items:
-        - icon: custom/artery-flow
+        - icon: custom/open-surgery
           name: "Ανοικτή αορτική χειρουργική"
-        - icon: "custom/med"
+        - icon: "custom/evar"
           name: "Ενδαγγειακή αποκατάσταση ανευρυσμάτων EVAR / TEVAR"
-        - icon: heart
+        - icon: "custom/stenosis"
           name: "Καρωτιδική ενδαρτηρεκτομή"
-        - icon: custom/med
-          name: "Μηρο-ιγνυακή και περιφερική παράκαμψη"
-        - icon: "custom/artery-flow"
-          name: "Μοσχεύματα / Φίστουλες αιμοκάθαρσης"
         - icon: custom/graft
+          name: "Μηρο-ιγνυακή και περιφερική παράκαμψη"
+        - icon: "custom/dialysis"
+          name: "Μοσχεύματα / Φίστουλες αιμοκάθαρσης"
+        - icon: custom/stent
           name: "Αγγειοπλαστική αρτηριών"
         - icon: "custom/avf"
           name: "Laser κιρσών"
@@ -67,7 +67,7 @@ sections:
 
   - block: collection
     content:
-      title: Πρόσφατες Δημοσιεύσεις
+      title: "📚 Πρόσφατες Δημοσιεύσεις"
       text: ""
       filters:
         folders:
@@ -79,7 +79,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Ομιλίες & Συνέδρια
+      title: "📑 Ομιλίες & Συνέδρια"
       filters:
         folders:
           - events
@@ -89,7 +89,7 @@ sections:
   - block: collection
     id: blog
     content:
-      title: "Blog / Βίντεο"
+      title: "🎬 Blog / Βίντεο"
       subtitle: ""
       text: ""
       page_type: blog            # Page type to display. E.g. post, talk, publication...
