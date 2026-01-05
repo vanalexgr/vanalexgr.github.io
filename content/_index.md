@@ -66,7 +66,7 @@ sections:
         - icon: stent
           icon_pack: custom
           name: "Αγγειοπλαστική αρτηριών"
-        - icon: avf
+        - icon: evla
           icon_pack: custom
           name: "Laser κιρσών"
     design:
