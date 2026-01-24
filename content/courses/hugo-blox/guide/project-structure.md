@@ -21,7 +21,6 @@ There are **4 main folders for Hugo-based sites**:
 - `static/uploads/` for any files you want visitors to download, such as a PDF
 - `go.mod` sets the version of Hugo themes/plugins which your site uses
 
-
 ## Hugo File Naming Convention
 
 Hugo gives us two options to name standard page files: as `TITLE/index.md` or `TITLE.md` where `TITLE` is your page name.

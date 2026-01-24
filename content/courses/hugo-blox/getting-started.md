@@ -32,7 +32,7 @@ Your site will automatically publish ~1-5 minutes after you commit (save) change
 Let's customize your new site:
 
 {{< cards >}}
-  {{< card url="../guide/project-structure" title="Project Structure" icon="document-duplicate" >}}
-  {{< card url="../guide/configuration" title="Configuration" icon="adjustments-vertical" >}}
-  {{< card url="../guide/formatting" title="Create content" icon="document-duplicate" >}}
+{{< card url="../guide/project-structure" title="Project Structure" icon="document-duplicate" >}}
+{{< card url="../guide/configuration" title="Configuration" icon="adjustments-vertical" >}}
+{{< card url="../guide/formatting" title="Create content" icon="document-duplicate" >}}
 {{< /cards >}}

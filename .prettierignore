@@ -1,0 +1,5 @@
+layouts/
+pnpm-lock.yaml
+package-lock.json
+go.mod
+go.sum

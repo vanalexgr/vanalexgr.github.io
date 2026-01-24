@@ -61,7 +61,7 @@ jobs:
             exit 1
           fi
           echo "✅ publications.bib file found"
-          
+
       - name: Run Academic (Bibtex To Markdown Converter)
         # Check `.bib` file exists for case when action runs on `.bib` deletion
         # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
@@ -70,7 +70,7 @@ jobs:
           echo "🚀 Starting publication import..."
           academic import publications.bib content/publication/ --compact --verbose
           echo "✅ Publication import completed successfully"
-          
+
           # Verify that files were created
           if [ -d "content/publication" ] && [ "$(ls -A content/publication/)" ]; then
             echo "📚 Publications imported: $(ls content/publication/ | wc -l) items"

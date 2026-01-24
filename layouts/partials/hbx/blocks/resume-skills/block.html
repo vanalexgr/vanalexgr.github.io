@@ -1,49 +1,66 @@
 {{/* Hugo Blox: Skills - Custom override for custom icons & lowercase text */}}
-{{ $page := .wcPage }}
-{{ $block := .wcBlock }}
-{{ $author := $block.content.username | default "admin" }}
-{{ $person_page := site.GetPage (printf "/authors/%s" $author) }}
-{{ $skills := $person_page.Params.skills }}
-{{ $show_show_skill_percentage := $block.design.show_skill_percentage | default true }}
+{{ $page := .wcPage }} {{ $block := .wcBlock }} {{ $author :=
+$block.content.username | default "admin" }} {{ $person_page := site.GetPage
+(printf "/authors/%s" $author) }} {{ $skills := $person_page.Params.skills }} {{
+$show_show_skill_percentage := $block.design.show_skill_percentage | default
+true }}
 
-<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+<div
+  class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center"
+>
   {{/* ΤΙΤΛΟΣ ΕΝΟΤΗΤΑΣ: Force normal case */}}
-  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white" style="text-transform: none !important;">
+  <div
+    class="mb-6 text-3xl font-bold text-gray-900 dark:text-white"
+    style="text-transform: none !important"
+  >
     {{ $block.content.title | markdownify | emojify }}
   </div>
-  {{ with $block.content.text }}<p style="text-transform: none !important;">{{ . | markdownify | emojify }}</p>{{ end }}
+  {{ with $block.content.text }}
+  <p style="text-transform: none !important">{{ . | markdownify | emojify }}</p>
+  {{ end }}
 </div>
 
 {{ $columns := $block.design.columns | default 2 }}
-<div class="grid grid-cols-1 {{ if ge $columns 2 }}md:grid-cols-2{{ end }} {{ if ge $columns 3 }}lg:grid-cols-3{{ end }} items-start max-w-prose mx-auto gap-3 px-6 md:px-0">
-
+<div
+  class="grid grid-cols-1 {{ if ge $columns 2 }}md:grid-cols-2{{ end }} {{ if ge $columns 3 }}lg:grid-cols-3{{ end }} items-start max-w-prose mx-auto gap-3 px-6 md:px-0"
+>
   {{ range $skills }}
   <div class="w-full">
     {{/* ΤΙΤΛΟΣ ΥΠΟ-ΚΑΤΗΓΟΡΙΑΣ */}}
-    <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white" style="text-transform: none !important;">
+    <div
+      class="mb-5 text-xl font-bold text-gray-900 dark:text-white"
+      style="text-transform: none !important"
+    >
       {{ .name | markdownify | emojify }}
     </div>
-    
-    {{ range .items }}
-    {{ $pack := .icon_pack | default "fas" }}
-    {{ $icon := .icon }}
+
+    {{ range .items }} {{ $pack := .icon_pack | default "fas" }} {{ $icon :=
+    .icon }}
 
     <div class="skills-content">
-      {{ if $icon }}
-      {{/* ΜΕΓΕΘΟΣ ΕΙΚΟΝΙΔΙΩΝ: Εδώ ορίζεται το 2.5em */}}
-      <span class="skills-icon inline-block" style="width:2.5em; height:2.5em; display:inline-flex; align-items:center; margin-right:0.5em;">
-        {{- if eq $pack "custom" -}}
-          {{- $iconPath := printf "media/icons/custom/%s.svg" $icon -}}
-          {{- $iconRes := resources.Get $iconPath -}}
-          {{- with $iconRes -}}{{ .Content | safeHTML }}{{- else -}}<span title="{{ $icon }}">[?]</span>{{- end -}}
-        {{- else -}}
-          {{ partial "functions/get_icon" (dict "name" $icon "attributes" "style=\"height: 100%; width: 100%;\"") }}
-        {{- end -}}
+      {{ if $icon }} {{/* ΜΕΓΕΘΟΣ ΕΙΚΟΝΙΔΙΩΝ: Εδώ ορίζεται το 2.5em */}}
+      <span
+        class="skills-icon inline-block"
+        style="
+          width: 2.5em;
+          height: 2.5em;
+          display: inline-flex;
+          align-items: center;
+          margin-right: 0.5em;
+        "
+      >
+        {{- if eq $pack "custom" -}} {{- $iconPath := printf
+        "media/icons/custom/%s.svg" $icon -}} {{- $iconRes := resources.Get
+        $iconPath -}} {{- with $iconRes -}}{{ .Content | safeHTML }}{{- else
+        -}}<span title="{{ $icon }}">[?]</span>{{- end -}} {{- else -}} {{
+        partial "functions/get_icon" (dict "name" $icon "attributes"
+        "style=\"height: 100%; width: 100%;\"") }} {{- end -}}
       </span>
-      {{ end }}
-
-      {{/* ΟΝΟΜΑ ΔΕΞΙΟΤΗΤΑΣ */}}
-      <span class="skills-name text-gray-700 dark:text-gray-300" style="text-transform: none !important;">
+      {{ end }} {{/* ΟΝΟΜΑ ΔΕΞΙΟΤΗΤΑΣ */}}
+      <span
+        class="skills-name text-gray-700 dark:text-gray-300"
+        style="text-transform: none !important"
+      >
         {{ .name | markdownify | emojify }}
       </span>
 

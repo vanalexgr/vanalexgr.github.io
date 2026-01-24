@@ -28,15 +28,15 @@ Additional links can be added under the `sidebar` section of your `config/_defau
 ```yaml
 menu:
   sidebar:
-    - name: "Need help?"
+    - name: 'Need help?'
       params:
         type: separator
       weight: 1
-    - name: "A page"
-      pageRef: "/page-filename-here"
+    - name: 'A page'
+      pageRef: '/page-filename-here'
       weight: 2
-    - name: "An external link ↗"
-      url: "https://hugoblox.com"
+    - name: 'An external link ↗'
+      url: 'https://hugoblox.com'
       weight: 3
 ```
 
