@@ -9,12 +9,12 @@ design:
 sections:
   - block: resume-experience
     content:
-      title: 'Εμπειρία & Εκπαίδευση'  # Τίτλος ενότητας που θα φαίνεται στη σελίδα
-      username: admin                # Φάκελος content/authors/admin/
+      title: 'Εμπειρία & Εκπαίδευση' # Τίτλος ενότητας που θα φαίνεται στη σελίδα
+      username: admin # Φάκελος content/authors/admin/
     design:
-      date_format: 'January 2006'    # Μορφή ημερομηνίας στο widget
-      is_education_first: false      # false: πρώτα Εμπειρία, μετά Εκπαίδευση (βάλε true αν θες το ανάποδο)
-      show_title: true               # Εμφάνιση τίτλου ενότητας
+      date_format: 'January 2006' # Μορφή ημερομηνίας στο widget
+      is_education_first: false # false: πρώτα Εμπειρία, μετά Εκπαίδευση (βάλε true αν θες το ανάποδο)
+      show_title: true # Εμφάνιση τίτλου ενότητας
 
   - block: resume-skills
     content:

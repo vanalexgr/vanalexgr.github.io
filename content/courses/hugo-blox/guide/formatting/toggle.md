@@ -16,7 +16,7 @@ Markdown is **supported**.
 
 ## Usage
 
-````
+```
 {{</* spoiler text="Click to view the spoiler" */>}}
 
 This is the content of the details.
@@ -24,4 +24,4 @@ This is the content of the details.
 Markdown is **supported**.
 
 {{</* /spoiler */>}}
-````
+```

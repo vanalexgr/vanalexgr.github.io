@@ -177,13 +177,13 @@ Hugo Blox generates callouts with semantic CSS classes and data attributes, maki
 
 ```css
 /* Customize NOTE callouts */
-.callout[data-callout="note"] {
+.callout[data-callout='note'] {
   border-left-width: 8px;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
 }
 
 /* Make SUCCESS callouts pulse */
-.callout[data-callout="success"] {
+.callout[data-callout='success'] {
   animation: pulse 2s infinite;
 }
 
@@ -198,7 +198,7 @@ Hugo Blox generates callouts with semantic CSS classes and data attributes, maki
 
 /* Dark mode overrides */
 @media (prefers-color-scheme: dark) {
-  .callout[data-callout="warning"] {
+  .callout[data-callout='warning'] {
     background-color: rgb(92 25 2);
     border-color: rgb(245 158 11);
   }
@@ -210,7 +210,7 @@ This approach matches [Obsidian's CSS customization system](https://help.obsidia
 ### Benefits of the New Syntax
 
 - **Portable**: Works with GitHub, Obsidian, and other Markdown editors
-- **Standard**: Uses widely-adopted Markdown callout syntax  
+- **Standard**: Uses widely-adopted Markdown callout syntax
 - **Clean**: No Hugo-specific shortcodes needed
 - **Future-proof**: Supported by the latest Hugo versions (0.132.0+)
 - **Customizable**: Semantic CSS classes and data attributes for easy styling

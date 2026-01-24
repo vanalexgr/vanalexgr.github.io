@@ -1,14 +1,13 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title: ''
 date: 2022-10-24
 type: landing
 
 design:
-  spacing: "6rem"  # Default section spacing
+  spacing: '6rem' # Default section spacing
 
 sections:
-
   - block: resume-biography-3
     content:
       username: admin
@@ -20,7 +19,7 @@ sections:
         - Είναι **μέλος του Διοικητικού Συμβουλίου** και **ταμίας** της **Ελληνικής Εταιρείας Αγγειακής και Ενδαγγειακής Χειρουργικής**.
       button:
         text: Κλείστε ραντεβού
-        url: "/#contact"
+        url: '/#contact'
       headings:
         about: Επαγγελματικό προφίλ
         education: Πτυχία - Ειδικότητα
@@ -28,13 +27,13 @@ sections:
     design:
       css_class: hbx-bg-gradient
       avatar:
-        size: medium   # small, medium (default), large, xl, xxl
-        shape: circle  # circle (default), square, rounded
+        size: medium # small, medium (default), large, xl, xxl
+        shape: circle # circle (default), square, rounded
 
   - block: markdown
     content:
-      title: "🔬 Ερευνητικά Ενδιαφέροντα"
-      subtitle: "Κλινική έρευνα – Καινοτόμες τεχνικές"
+      title: '🔬 Ερευνητικά Ενδιαφέροντα'
+      subtitle: 'Κλινική έρευνα – Καινοτόμες τεχνικές'
       text: |-
         - Χρήση της τεχνητής νοημοσύνης στην Αγγειοχειρουργική
         - Φλεβικές παθήσεις
@@ -46,36 +45,37 @@ sections:
   # ↓↓↓ Features block με τεράστια custom SVG εικονίδια
   - block: features
     content:
-      title: "🥼 Χειρουργικές Επεμβάσεις"
+      title: '🥼 Χειρουργικές Επεμβάσεις'
       items:
         - icon: open-surgery
           icon_pack: custom
-          name: "Ανοικτή αορτική χειρουργική"
+          name: 'Ανοικτή αορτική χειρουργική'
         - icon: evar
           icon_pack: custom
-          name: "Ενδαγγειακή αποκατάσταση ανευρυσμάτων EVAR / TEVAR"
+          name: 'Ενδαγγειακή αποκατάσταση ανευρυσμάτων EVAR / TEVAR'
         - icon: stenosis
           icon_pack: custom
-          name: "Καρωτιδική ενδαρτηρεκτομή"
+          name: 'Καρωτιδική ενδαρτηρεκτομή'
         - icon: graft
           icon_pack: custom
-          name: "Μηρο-ιγνυακή και περιφερική παράκαμψη"
+          name: 'Μηρο-ιγνυακή και περιφερική παράκαμψη'
         - icon: dialysis
           icon_pack: custom
-          name: "Μοσχεύματα / Φίστουλες αιμοκάθαρσης"
+          name: 'Μοσχεύματα / Φίστουλες αιμοκάθαρσης'
         - icon: stent
           icon_pack: custom
-          name: "Αγγειοπλαστική αρτηριών"
+          name: 'Αγγειοπλαστική αρτηριών'
         - icon: evla
           icon_pack: custom
-          name: "Laser κιρσών"
+          name: 'Laser κιρσών'
     design:
       columns: 3
 
   - block: collection
+    id: news
     content:
-      title: "📚 Πρόσφατες Δημοσιεύσεις"
-      text: ""
+      title: '📚 Πρόσφατες Δημοσιεύσεις'
+      text: ''
       filters:
         folders:
           - publication
@@ -86,7 +86,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: "📑 Ομιλίες & Συνέδρια"
+      title: '📑 Ομιλίες & Συνέδρια'
       filters:
         folders:
           - events
@@ -96,21 +96,21 @@ sections:
   - block: collection
     id: blog
     content:
-      title: "🎬 Blog / Βίντεο"
-      subtitle: ""
-      text: ""
-      page_type: blog            # Page type to display. E.g. post, talk, publication...
-      count: 5                   # Number of pages to show (0 = all)
+      title: '🎬 Blog / Βίντεο'
+      subtitle: ''
+      text: ''
+      page_type: blog # Page type to display. E.g. post, talk, publication...
+      count: 5 # Number of pages to show (0 = all)
       filters:
-        author: ""
-        category: ""
-        tag: ""
+        author: ''
+        category: ''
+        tag: ''
         exclude_featured: false
         exclude_future: false
         exclude_past: false
-        publication_type: ""
-      offset: 0                  # Skip this many pages
-      order: desc                # Page order: descending (desc) or ascending (asc) date.
+        publication_type: ''
+      offset: 0 # Skip this many pages
+      order: desc # Page order: descending (desc) or ascending (asc) date.
     design:
       view: card
       spacing:
@@ -119,7 +119,7 @@ sections:
   - block: markdown
     id: contact
     content:
-      title: "📞 Επικοινωνία"
+      title: '📞 Επικοινωνία'
       text: |-
         - 📧 **Email:** [v.alexiou@aibs.gr](mailto:v.alexiou@aibs.gr)
         - 📱 **Κινητό:** [+30 699 3031 175](tel:+306993031175)

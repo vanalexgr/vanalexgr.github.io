@@ -3,12 +3,12 @@ name: Deploy website to GitHub Pages
 env:
   WC_HUGO_VERSION: '0.150.1'
   NODE_VERSION: '20'
-  HUGO_BASEURL: 'https://vascularized.gr/'   # 👈 your custom domain
+  HUGO_BASEURL: 'https://vascularized.gr/' # 👈 your custom domain
 
 on:
   push:
-    branches: ['main']     # Trigger on main branch
-  workflow_dispatch:        # Manual trigger from Actions tab
+    branches: ['main'] # Trigger on main branch
+  workflow_dispatch: # Manual trigger from Actions tab
 
 permissions:
   contents: read
@@ -27,7 +27,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0     # Required for .GitInfo and .Lastmod
+          fetch-depth: 0 # Required for .GitInfo and .Lastmod
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
