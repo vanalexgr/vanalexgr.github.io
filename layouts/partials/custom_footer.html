@@ -1,17 +1,16 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const navLinks = document.querySelectorAll(
-      '.navbar-collapse a[href^="#"], .navbar-collapse a[href^="/#"]'
-    );
-    const bsCollapse = document.querySelector('.navbar-collapse');
+    const navToggle = document.querySelector('#nav-toggle');
+    const navLinks = document.querySelectorAll('#nav-menu a');
 
-    navLinks.forEach((link) => {
-      link.addEventListener('click', () => {
-        if (bsCollapse.classList.contains('show')) {
-          const collapse = new bootstrap.Collapse(bsCollapse, { toggle: true });
-          collapse.hide();
-        }
+    if (navToggle && navLinks.length > 0) {
+      navLinks.forEach((link) => {
+        link.addEventListener('click', () => {
+          if (navToggle.checked) {
+             navToggle.checked = false;
+          }
+        });
       });
-    });
+    }
   });
 </script>
