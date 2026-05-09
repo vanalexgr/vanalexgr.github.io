@@ -37,6 +37,10 @@ interests:
   - "Σύνθετα ανευρύσματα αορτής (BEVAR, FEVAR, CERAB, chimney)"
 
 education:
+  - area: "Fellow of the European Board of Vascular Surgery (FEBVS)"
+    institution: "Union Europeenne des Medecins Specialistes (UEMS), Section and Board of Vascular Surgery"
+    summary: |
+      Ευρωπαϊκή πιστοποίηση στην Αγγειοχειρουργική κατόπιν επιτυχούς εξέτασης FEBVS.
   - area: "Aγγειακή και Ενδαγγειακή Χειρουργική"
     institution: "Αγγειοχειρουργική Κλινική Πανεπιστημίου Αθηνών και East Midlands South Deanery, UK"
     date_start: "2010-01-01"

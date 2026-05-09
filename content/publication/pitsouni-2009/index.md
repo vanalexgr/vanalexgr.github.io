@@ -12,7 +12,9 @@ publishDate: '2025-10-20T18:12:57.631683Z'
 publication_types:
 - article-journal
 publication: '*European Journal of Clinical Pharmacology*'
-doi: 10.1007/s00228-009-0642-7
+hugoblox:
+  ids:
+    doi: 10.1007/s00228-009-0642-7
 links:
 - name: URL
   url: http://dx.doi.org/10.1007/s00228-009-0642-7

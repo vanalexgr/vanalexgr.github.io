@@ -15,7 +15,9 @@ publishDate: '2025-10-20T18:12:57.506354Z'
 publication_types:
 - article-journal
 publication: '*Journal of Vascular Surgery*'
-doi: 10.1016/j.jvs.2017.06.083
+hugoblox:
+  ids:
+    doi: 10.1016/j.jvs.2017.06.083
 links:
 - name: URL
   url: http://dx.doi.org/10.1016/J.JVS.2017.06.083

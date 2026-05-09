@@ -14,7 +14,9 @@ publishDate: '2025-10-20T18:12:57.457324Z'
 publication_types:
 - article-journal
 publication: '*Journal of Thrombosis and Thrombolysis*'
-doi: 10.1007/s11239-022-02674-w
+hugoblox:
+  ids:
+    doi: 10.1007/s11239-022-02674-w
 links:
 - name: URL
   url: http://dx.doi.org/10.1007/s11239-022-02674-w

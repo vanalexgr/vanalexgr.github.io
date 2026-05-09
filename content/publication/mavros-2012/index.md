@@ -12,7 +12,9 @@ publishDate: '2025-10-20T18:12:57.555573Z'
 publication_types:
 - article-journal
 publication: '*The Journal of Thoracic and Cardiovascular Surgery*'
-doi: 10.1016/j.jtcvs.2012.06.040
+hugoblox:
+  ids:
+    doi: 10.1016/j.jtcvs.2012.06.040
 links:
 - name: URL
   url: http://dx.doi.org/10.1016/J.JTCVS.2012.06.040

@@ -16,7 +16,9 @@ publishDate: '2025-10-20T18:12:57.624543Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Antimicrobial Agents*'
-doi: 10.1016/j.ijantimicag.2009.10.005
+hugoblox:
+  ids:
+    doi: 10.1016/j.ijantimicag.2009.10.005
 links:
 - name: URL
   url: http://dx.doi.org/10.1016/j.ijantimicag.2009.10.005

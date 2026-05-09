@@ -10,7 +10,9 @@ publishDate: '2025-10-20T18:12:57.667100Z'
 publication_types:
 - article-journal
 publication: '*The American Journal of Surgery*'
-doi: 10.1016/j.amjsurg.2007.06.021
+hugoblox:
+  ids:
+    doi: 10.1016/j.amjsurg.2007.06.021
 links:
 - name: URL
   url: http://dx.doi.org/10.1016/j.amjsurg.2007.06.021

@@ -9,7 +9,9 @@ publishDate: '2025-10-20T18:12:57.583228Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Clinical Practice*'
-doi: 10.1111/j.1742-1241.2007.01590.x
+hugoblox:
+  ids:
+    doi: 10.1111/j.1742-1241.2007.01590.x
 links:
 - name: URL
   url: http://dx.doi.org/10.1111/J.1742-1241.2007.01590.X

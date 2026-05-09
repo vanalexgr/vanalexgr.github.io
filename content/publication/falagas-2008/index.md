@@ -9,7 +9,9 @@ publishDate: '2025-10-20T18:12:57.596771Z'
 publication_types:
 - article-journal
 publication: '*The FASEB Journal*'
-doi: 10.1096/fj.08-117606
+hugoblox:
+  ids:
+    doi: 10.1096/fj.08-117606
 links:
 - name: URL
   url: http://dx.doi.org/10.1096/FJ.08-117606

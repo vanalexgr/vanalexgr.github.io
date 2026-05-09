@@ -11,7 +11,9 @@ publishDate: '2025-10-20T18:12:57.450137Z'
 publication_types:
 - article-journal
 publication: '*Phlebology: The Journal of Venous Disease*'
-doi: 10.1177/02683555241257858
+hugoblox:
+  ids:
+    doi: 10.1177/02683555241257858
 links:
 - name: URL
   url: http://dx.doi.org/10.1177/02683555241257858

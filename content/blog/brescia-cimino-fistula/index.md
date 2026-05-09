@@ -164,7 +164,7 @@ image:
 
 η έγκαιρη δημιουργία μιας **αρτηριοφλεβικής fistula** είναι κρίσιμη για την ασφάλεια και την ποιότητα της θεραπείας σας.
 
-{{< button url="/#contact/" style="primary" size="lg" align="center" icon="stethoscope" >}}
+{{< button url="/#contact/" style="primary" size="lg" align="center" icon="phone" >}}
 Κλείστε ραντεβού για εκτίμηση fistula
 {{< /button >}}
 

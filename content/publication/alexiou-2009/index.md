@@ -11,7 +11,9 @@ publishDate: '2025-10-20T18:12:57.638740Z'
 publication_types:
 - article-journal
 publication: '*Journal of Critical Care*'
-doi: 10.1016/j.jcrc.2008.09.003
+hugoblox:
+  ids:
+    doi: 10.1016/j.jcrc.2008.09.003
 links:
 - name: URL
   url: http://dx.doi.org/10.1016/j.jcrc.2008.09.003

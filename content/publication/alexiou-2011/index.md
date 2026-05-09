@@ -13,7 +13,9 @@ publishDate: '2025-10-20T18:12:57.562464Z'
 publication_types:
 - article-journal
 publication: '*European Journal of Clinical Microbiology &amp; Infectious Diseases*'
-doi: 10.1007/s10096-011-1347-2
+hugoblox:
+  ids:
+    doi: 10.1007/s10096-011-1347-2
 links:
 - name: URL
   url: http://dx.doi.org/10.1007/S10096-011-1347-2

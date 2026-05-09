@@ -12,7 +12,9 @@ publishDate: '2025-10-20T18:12:57.440673Z'
 publication_types:
 - article-journal
 publication: '*Annals of Vascular Surgery*'
-doi: 10.1016/j.avsg.2024.11.014
+hugoblox:
+  ids:
+    doi: 10.1016/j.avsg.2024.11.014
 links:
 - name: URL
   url: http://dx.doi.org/10.1016/j.avsg.2024.11.014

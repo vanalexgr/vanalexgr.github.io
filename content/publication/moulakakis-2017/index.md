@@ -15,7 +15,9 @@ publishDate: '2025-10-20T18:12:57.499336Z'
 publication_types:
 - article-journal
 publication: '*Vasa*'
-doi: 10.1024/0301-1526/a000572
+hugoblox:
+  ids:
+    doi: 10.1024/0301-1526/a000572
 links:
 - name: URL
   url: http://dx.doi.org/10.1024/0301-1526/A000572
