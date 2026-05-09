@@ -1,0 +1,70 @@
+To make your custom icons (like open-surgery.svg) work everywhere on your site (including the "Features" block, "About" widget, etc.) without needing special blocks, we need to override the main icon function of the website.
+
+This single "Global Fix" will teach Hugo to check your custom folder whenever you use icon_pack: custom, regardless of which page or block you are using.
+
+Replit Instructions
+Step 1: Create the Global Icon Handler
+We will create a file that overrides the theme's default icon logic.
+
+Open the Shell (Console).
+
+Run this command to create the necessary folder:
+
+Bash
+
+mkdir -p layouts/partials/functions
+Create/Edit the file: In the Files sidebar, navigate to layouts > partials > functions and create a new file named get_icon.html.
+
+Paste the following code into get_icon.html:
+
+HTML
+
+{{/* Global Override for Icon Handling */}}
+{{- $name := .name -}}
+{{- $pack := .pack | default "fas" -}}
+{{- $attributes := .attributes | default "" | safeHTMLAttr -}}
+
+{{- if eq $pack "custom" -}}
+  {{/* Logic for Custom SVGs in assets/media/icons/custom/ */}}
+  {{- $svg_path := printf "media/icons/custom/%s.svg" $name -}}
+  {{- $res := resources.Get $svg_path -}}
+  {{- with $res -}}
+    {{/* Render SVG inline so it can be styled */}}
+    <span class="svg-icon-custom inline-flex items-center justify-center shrink-0" {{ $attributes }}>
+      {{- .Content | safeHTML -}}
+    </span>
+  {{- else -}}
+    {{/* Fallback if file missing */}}
+    <span title="Missing Icon: {{ $name }}" {{ $attributes }}>⚠️</span>
+    {{- warnf "Custom icon not found at: %s" $svg_path -}}
+  {{- end -}}
+
+{{- else if eq $pack "emoji" -}}
+  {{/* Logic for Emojis */}}
+  <span {{ $attributes }}>{{- $name | emojify -}}</span>
+
+{{- else -}}
+  {{/* Logic for Standard Icons (FontAwesome, Academicons) */}}
+  {{- $prefix := "fa" -}}
+  {{- if eq $pack "ai" -}}
+    {{- $prefix = "ai" -}}
+  {{- end -}}
+  <i class="{{ $pack }} {{ $prefix }}-{{ $name }}" {{ $attributes }}></i>
+{{- end -}}
+Step 2: Use it in your Content
+Now you can use your custom icons in any file (like _index.md, features.md, etc.) by simply adding icon_pack: custom.
+
+Example: If you want to use the standard "Features" block instead of "Skills" in content/experience.md, you can now revert it or add a new one:
+
+YAML
+
+  - block: features
+    content:
+      title: 'Χειρουργικά Ενδιαφέροντα'
+      items:
+        - name: "Ανοιχτή Χειρουργική"
+          icon: open-surgery      # Filename without .svg
+          icon_pack: custom       # This triggers our new global code
+        - name: "EVAR"
+          icon: evar
+          icon_pack: custom

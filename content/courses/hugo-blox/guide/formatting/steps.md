@@ -23,7 +23,6 @@ The third step here...
 
 {{% /steps %}}
 
-
 ## Usage
 
 Use the Markdown level-3 headings to represent step titles within the `steps` shortcode:

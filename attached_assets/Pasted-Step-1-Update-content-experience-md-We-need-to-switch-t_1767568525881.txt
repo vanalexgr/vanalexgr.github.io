@@ -1,0 +1,74 @@
+Step 1: Update content/experience.md
+We need to switch the section from "features" (which doesn't support custom icons) to "skills" (which does).
+
+Open content/experience.md.
+
+Delete the entire "Χειρουργικά Ενδιαφέροντα" block (lines ~14-19).
+
+Paste this exact code in its place:
+
+YAML
+
+  - block: resume/skills
+    content:
+      title: 'Χειρουργικά Ενδιαφέροντα'
+      username: admin
+    design:
+      show_title: true
+Step 2: Update content/authors/admin/_index.md
+We will rename the data list to skills, add the icon_pack: custom line, and fix the graft filename to match what is in your folder.
+
+Open content/authors/admin/_index.md.
+
+Locate the features: section (around line 118).
+
+Delete everything from features: down to the end of the file.
+
+Paste this corrected code:
+
+YAML
+
+skills:
+  - name: "Αγγειακή χειρουργική (ανοιχτές επεμβάσεις)"
+    items:
+      - name: "Ανοιχτή αποκατάσταση ανευρύσματος, αορτομηριαία παράκαμψη"
+        percent: 90
+        icon: open-surgery      # Matches open-surgery.svg
+        icon_pack: custom
+      - name: "Ενδαρτηρεκτομή καρωτίδας"
+        percent: 85
+        icon: stenosis          # Matches stenosis.svg
+        icon_pack: custom
+      - name: "Μηροιγνυακές και περιφερικές παρακάμψεις"
+        percent: 90
+        icon: graft             # 👈 CHANGED: "grafts" -> "graft" to match your file
+        icon_pack: custom
+      - name: "Φίστουλες και μοσχεύματα αιμοκάθαρσης"
+        percent: 80
+        icon: dialysis          # Matches dialysis.svg
+        icon_pack: custom
+
+  - name: "Ενδαγγειακή χειρουργική (ελάχιστα επεμβατική)"
+    items:
+      - name: "EVAR - TEVAR αποκατάσταση ανευρυσμάτων με stents"
+        percent: 90
+        icon: evar              # Matches evar.svg
+        icon_pack: custom
+      - name: "Stent καρωτίδας"
+        percent: 85
+        icon: heart             # Standard icon (fallback)
+        icon_pack: fas
+      - name: "Περιφερική αρτηριακή νόσος - Αγγειοπλαστική και stenting"
+        percent: 90
+        icon: artery-flow       # Matches artery-flow.svg
+        icon_pack: custom
+      - name: "Αγγειοπλαστική φίστουλας, κεντρικοί καθετήρες"
+        percent: 80
+        icon: cvc               # Matches cvc.svg
+        icon_pack: custom
+
+languages:
+  - name: "Αγγλικά (Proficiency)"
+    percent: 100
+  - name: "Γαλλικά (Sorbonne II)"
+    percent: 100

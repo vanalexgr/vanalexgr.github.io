@@ -4,15 +4,15 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: Ευάγγελος Αλεξίου - Αγγειοχειρουργός 
+title: Ευάγγελος Αλεξίου - Αγγειοχειρουργός
 # Website URL
-baseURL: 'https://vascularized.gr/'
+baseURL: '/'
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: el
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true

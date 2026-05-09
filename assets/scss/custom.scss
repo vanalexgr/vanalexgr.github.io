@@ -1,0 +1,28 @@
+/* Custom High-End Styling */
+
+/* Typography Improvements */
+body {
+  line-height: 1.75;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.025em;
+  font-weight: 600;
+}
+
+/* Add more whitespace for elegance */
+.section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+/* Subtle transitions */
+a {
+  transition: all 0.2s ease-in-out;
+}
