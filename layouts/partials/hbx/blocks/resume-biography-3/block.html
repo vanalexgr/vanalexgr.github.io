@@ -32,7 +32,11 @@
 
           {{ range $person_page.Params.organizations }}
           <p class="text-lg text-gray-700 dark:text-gray-300">
-            <a href="{{ .url }}" target="_blank" rel="noopener" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{{ .name | markdownify | emojify }}</a>
+            {{ if .url }}
+            <a href="{{ .url | safeURL }}" target="_blank" rel="noopener" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{{ .name | markdownify | emojify }}</a>
+            {{ else }}
+            <span>{{ .name | markdownify | emojify }}</span>
+            {{ end }}
           </p>
           {{ end }}
         </div>
@@ -44,7 +48,7 @@
             {{ if in (slice "fab" "fas" "far" "fal") $pack }}
               {{ $pack_prefix = "fa" }}
             {{ end }}
-            <a href="{{ .url }}" {{ if strings.HasPrefix .url "http" }}target="_blank" rel="noopener"{{ end }} aria-label="{{ .icon }}" title="{{ .label | default .icon }}" class="w-12 h-12 flex items-center justify-center rounded-full bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 shadow-md hover:shadow-xl hover:scale-110 hover:-translate-y-1 transition-all duration-300 border border-gray-200 dark:border-gray-700">
+            <a href="{{ .url | safeURL }}" {{ if or (strings.HasPrefix .url "http://") (strings.HasPrefix .url "https://") }}target="_blank" rel="noopener"{{ end }} aria-label="{{ .icon }}" title="{{ .label | default .icon }}" class="w-12 h-12 flex items-center justify-center rounded-full bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 shadow-md hover:shadow-xl hover:scale-110 hover:-translate-y-1 transition-all duration-300 border border-gray-200 dark:border-gray-700">
               {{ partial "functions/get_icon" (dict "name" .icon "pack" .icon_pack "size" "sm") }}
             </a>
           {{ end }}
@@ -73,7 +77,7 @@
         {{ with $block.content.button }}
         <div class="mb-16">
           {{/* FIX: Removed target="_blank" unless http */}}
-          <a href="{{ .url }}" {{ if strings.HasPrefix .url "http" }}target="_blank" rel="noopener"{{ end }} class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+          <a href="{{ .url | safeURL }}" {{ if or (strings.HasPrefix .url "http://") (strings.HasPrefix .url "https://") }}target="_blank" rel="noopener"{{ end }} class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
             <svg class="w-5 h-5 mr-3" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625A3.375 3.375.0 0016.125 8.25h-1.5A1.125 1.125.0 0113.5 7.125v-1.5A3.375 3.375.0 0010.125 2.25H8.25m.75 12 3 3m0 0 3-3m-3 3v-6m-1.5-9H5.625c-.621.0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621.0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9"/></svg>
             {{ .text | markdownify | emojify }}
           </a>
