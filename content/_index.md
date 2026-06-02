@@ -12,7 +12,7 @@ sections:
     content:
       username: admin
       text: |-
-        - Ο Ευάγγελος Αλεξίου είναι **Επιμελητής Α΄ Αγγειοχειρουργός** στο **Πανεπιστημιακό Γενικό Νοσοκομείο Ιωαννίνων**.
+        - Ο Ευάγγελος Αλεξίου είναι **Αγγειοχειρουργός στην Πάτρα** και, από την **1η Ιουνίου 2026**, **Επιμελητής Α΄ Αγγειοχειρουργός** στο **Πανεπιστημιακό Γενικό Νοσοκομείο Πατρών**.
         - Διατηρεί **ιδιωτικό ιατρείο στο Αγρίνιο**.
         - Εξειδικεύεται στις **ελάχιστα επεμβατικές ενδαγγειακές τεχνικές** αλλά και στις **μείζονες ανοιχτές επεμβάσεις αρτηριών και φλεβών**.
         - Είναι **Fellow of the European Board of Vascular Surgery (FEBVS)**, κατόπιν επιτυχούς πιστοποίησης από την **Union Europeenne des Medecins Specialistes (UEMS), Section and Board of Vascular Surgery**.
@@ -124,8 +124,9 @@ sections:
       text: |-
         - 📧 **Email:** [v.alexiou@aibs.gr](mailto:v.alexiou@aibs.gr)
         - 📱 **Κινητό:** [+30 699 3031 175](tel:+306993031175)
-        - ☎️ **Γραφείο ΠΓΝ Ιωαννίνων:** [+30 26510 99694](tel:+302651099694)
-        - 🏥 **[Ιατρείο Αγρινίου – Google Maps](https://maps.app.goo.gl/XTBTAhAXWQJPyz7c9)**
+        - ☎️ **Γραφείο ΠΓΝ Πατρών:** [+30 2613 603348](tel:+302613603348)
+        - 🏥 **ΠΓΝ Πατρών:** [Google Maps](https://maps.app.goo.gl/DYi3VdKHu9iBKQ868)
+        - 🩺 **Ιατρείο Αγρινίου:** [Google Maps](https://maps.app.goo.gl/XTBTAhAXWQJPyz7c9)
         - 🧬 **ORCID:** [0000-0003-1388-4880](https://orcid.org/0000-0003-1388-4880)
         - 📊 **Scopus:** [18433424100](https://www.scopus.com/authid/detail.uri?authorId=18433424100)
         - 🩺 **ΕΕΑΕΧ:** [Προφίλ](https://www.vascularsociety.gr/user/vanalex)

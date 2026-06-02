@@ -8,18 +8,30 @@ status:
   icon: '🫀'
 superuser: true
 highlight_name: false
-role: 'Αγγειοχειρουργός'
+role: 'Επιμελητής Α΄ Αγγειοχειρουργός'
 
 organizations:
-  - name: 'ΠΓΝ Ιωαννίνων'
-    url: 'https://maps.app.goo.gl/Az2Y2QNANpELApfi7'
+  - name: 'Πανεπιστημιακό Γενικό Νοσοκομείο Πατρών'
+    url: 'https://maps.app.goo.gl/DYi3VdKHu9iBKQ868'
   - name: 'Ιδιωτικό Ιατρείο Αγρινίου'
     url: 'https://maps.app.goo.gl/rocYVCVz2zs4Xkey9?g_st=ac'
 
 profiles:
+  - icon: 'phone'
+    url: 'tel:+306993031175'
+    label: 'Κινητό'
+  - icon: 'phone'
+    url: 'tel:+302613603348'
+    label: 'Γραφείο ΠΓΝ Πατρών'
   - icon: 'at-symbol'
     url: 'mailto:v.alexiou@aibs.gr'
     label: 'Email'
+  - icon: 'map-pin'
+    url: 'https://maps.app.goo.gl/DYi3VdKHu9iBKQ868'
+    label: 'ΠΓΝ Πατρών'
+  - icon: 'map-pin'
+    url: 'https://maps.app.goo.gl/XTBTAhAXWQJPyz7c9'
+    label: 'Ιατρείο Αγρινίου'
   - icon: 'academicons/orcid'
     url: 'https://orcid.org/0000-0003-1388-4880'
   - icon: 'academicons/scopus'
@@ -73,11 +85,15 @@ education:
 
 work:
   - position: 'Επιμελητής Α΄ Αγγειοχειρουργός'
-    company_name: 'ΠΓΝ Ιωαννίνων'
-    date_start: '2024-02-01'
+    company_name: 'Πανεπιστημιακό Γενικό Νοσοκομείο Πατρών'
+    date_start: '2026-06-01'
     date_end: null
+  - position: 'Επιμελητής Α΄ Αγγειοχειρουργός'
+    company_name: 'Πανεπιστημιακό Γενικό Νοσοκομείο Ιωαννίνων'
+    date_start: '2024-02-01'
+    date_end: '2026-05-31'
   - position: 'Επικουρικός Επιμελητής Αγγειοχειρουργικής'
-    company_name: 'ΠΓΝ Ιωαννίνων'
+    company_name: 'Πανεπιστημιακό Γενικό Νοσοκομείο Ιωαννίνων'
     date_start: '2019-05-01'
     date_end: '2024-01-31'
   - position: 'Ειδικευόμενος Αγγειοχειρουργικής'
